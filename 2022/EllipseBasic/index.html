@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha256-CTSx/A06dm1B063156EVh15m6Y67pAjZZaQc89LLSrU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"coconut521.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.18.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta property="og:type" content="article">
+<meta property="og:title" content="【Manim】椭圆基础 (视频)">
+<meta property="og:url" content="https://coconut521.github.io/2022/EllipseBasic/index.html">
+<meta property="og:site_name" content="椰子耶">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-01-12T09:56:09.000Z">
+<meta property="article:modified_time" content="2023-10-24T10:18:32.089Z">
+<meta property="article:author" content="Coconut Tsoi">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="Manim">
+<meta property="article:tag" content="数学">
+<meta property="article:tag" content="椭圆">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://coconut521.github.io/2022/EllipseBasic/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://coconut521.github.io/2022/EllipseBasic/","path":"2022/EllipseBasic/","title":"【Manim】椭圆基础 (视频)"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>【Manim】椭圆基础 (视频) | 椰子耶</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">椰子耶</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">内心甘甜，外表坚硬</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/2020/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%BA%90%E7%A0%81%E5%B1%95%E7%A4%BA"><span class="nav-number">1.</span> <span class="nav-text">源码展示</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#pages1"><span class="nav-number">1.1.</span> <span class="nav-text">pages1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pages2"><span class="nav-number">1.2.</span> <span class="nav-text">pages2</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Coconut Tsoi</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">20</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">28</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://coconut521.github.io/2022/EllipseBasic/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Coconut Tsoi">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="椰子耶">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="【Manim】椭圆基础 (视频) | 椰子耶">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          【Manim】椭圆基础 (视频)
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-01-12 17:56:09" itemprop="dateCreated datePublished" datetime="2022-01-12T17:56:09+08:00">2022-01-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-10-24 18:18:32" itemprop="dateModified" datetime="2023-10-24T18:18:32+08:00">2023-10-24</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/IT/" itemprop="url" rel="index"><span itemprop="name">IT</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/IT/Manim/" itemprop="url" rel="index"><span itemprop="name">Manim</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><iframe src="//player.bilibili.com/player.html?aid=380553427&bvid=BV1qZ4y1S7nj&cid=482931291&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<span id="more"></span>
+
+<p>这个是我用 <code>Python</code> 和 <code>Manim</code> 完成的数学笔记视频。做了很长一段时间，在这个过程中也算是积累了一些Python经验</p>
+<p>内容为上课记的数学笔记，如有纰漏请在评论区指出~ 感谢观看！</p>
+<h1 id="源码展示"><a href="#源码展示" class="headerlink" title="源码展示"></a>源码展示</h1><hr>
+<h2 id="pages1"><a href="#pages1" class="headerlink" title="pages1"></a>pages1</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> manimlib <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">main</span>(<span class="title class_ inherited__">Scene</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">construct</span>(<span class="params">self</span>):</span><br><span class="line">        </span><br><span class="line">        <span class="comment">#BGcolor: Default(Black)</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># Prepare for clear the screen </span></span><br><span class="line">        self.save_state()</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Screen Plane (For movements)</span></span><br><span class="line">        <span class="comment">#NumberP = NumberPlane()</span></span><br><span class="line">        <span class="comment">#self.add(NumberP)</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># Title</span></span><br><span class="line">        title1 = Text(<span class="string">&quot;椭圆 · Part I · 定义&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).scale(<span class="number">2</span>)</span><br><span class="line">        self.play(ShowCreation(title1))</span><br><span class="line">        self.play(title1.animate.scale(<span class="number">0.5</span>).to_corner(UL))</span><br><span class="line"></span><br><span class="line">        <span class="comment"># axesL&amp;R </span></span><br><span class="line">        <span class="comment"># Origin:L4U1 R4U1</span></span><br><span class="line">        <span class="comment"># withOUT lables </span></span><br><span class="line">        <span class="comment"># Color:Default</span></span><br><span class="line">        axesL = Axes(</span><br><span class="line">            x_range=(-<span class="number">3</span>,<span class="number">3</span>,<span class="number">0.5</span>), </span><br><span class="line">            y_range=(-<span class="number">2</span>,<span class="number">2</span>,<span class="number">0.5</span>), </span><br><span class="line">            height=<span class="number">4</span>,</span><br><span class="line">            width=<span class="number">6</span> )</span><br><span class="line">        axesR = axesL.copy()</span><br><span class="line">        axesL.shift(UP+LEFT*<span class="number">4</span>)</span><br><span class="line">        axesR.shift(UP+RIGHT*<span class="number">4</span>)</span><br><span class="line">        self.play(</span><br><span class="line">            ShowCreation(axesL),</span><br><span class="line">            Write(axesL.get_axis_labels()))</span><br><span class="line">        self.wait(<span class="number">0.5</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># Focus Point:</span></span><br><span class="line">        f = np.sqrt(<span class="number">7</span>)/<span class="number">2</span></span><br><span class="line">        dF1 = Dot(axesL.c2p(-f,<span class="number">0</span>))</span><br><span class="line">        dF2 = Dot(axesL.c2p(f,<span class="number">0</span>))</span><br><span class="line">        tF1 = Tex(<span class="string">r&quot;F1&quot;</span>).scale(<span class="number">0.5</span>).next_to(dF1, direction=DOWN*<span class="number">1</span>/<span class="number">2</span>)</span><br><span class="line">        tF2 = Tex(<span class="string">r&quot;F2&quot;</span>).scale(<span class="number">0.5</span>).next_to(dF2, direction=DOWN*<span class="number">1</span>/<span class="number">2</span>)</span><br><span class="line">        gF = VGroup(dF1, tF1, dF2, tF2)</span><br><span class="line">        self.play(ShowCreation(gF))</span><br><span class="line">        self.wait(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># P点</span></span><br><span class="line">        ellipseL = Ellipse(width=<span class="number">4</span>,height=<span class="number">3</span>).set_color(BLUE).move_to(axesL)</span><br><span class="line">        ellipseR = Ellipse(width=<span class="number">3</span>, height=<span class="number">4</span>).set_color(GREEN).shift(UP+RIGHT*<span class="number">4</span>)</span><br><span class="line">        dP = Dot(color=ORANGE).move_to(ellipseL.pfp(<span class="number">0.3</span>))</span><br><span class="line">        tP = Tex(<span class="string">r&quot;P&quot;</span>).scale(<span class="number">0.5</span>).next_to(dP, direction=DOWN*<span class="number">1</span>/<span class="number">2</span>)</span><br><span class="line">        P = VGroup(dP, tP)</span><br><span class="line">        self.play(ShowCreation(P))</span><br><span class="line"></span><br><span class="line">        <span class="comment">#PF</span></span><br><span class="line">        PF1 = Line(start=dP, end=dF1)</span><br><span class="line">        PF2 = Line(start=dP, end=dF2)</span><br><span class="line">        PF = VGroup(PF1, PF2)</span><br><span class="line">        PF.set_color(ORANGE)</span><br><span class="line">        self.play(ShowCreation(PF))</span><br><span class="line">        self.wait(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Definition Tex </span></span><br><span class="line">        tDefine = Tex(<span class="string">r&quot;\left|&#123;\rm PF&#125;_1\right|+\left|&#123;\rm PF&#125;_2\right|=2a&quot;</span>, color=BLUE).to_edge(UP).scale(<span class="number">0.75</span>).shift(RIGHT*<span class="number">3</span>)</span><br><span class="line">        self.play(Write(tDefine))</span><br><span class="line">        self.wait(<span class="number">1</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># Ellipse</span></span><br><span class="line">        self.play(ShowCreation(ellipseL))</span><br><span class="line">        self.wait(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment">#公式推导</span></span><br><span class="line">        func_derivation = VGroup(</span><br><span class="line">            Tex(<span class="string">r&quot;\sqrt&#123;&#123;(x+c)&#125;^2+y^2&#125;+\sqrt&#123;&#123;(x-c)&#125;^2+y^2&#125;=2a&quot;</span>),                                    <span class="comment">#0 l02</span></span><br><span class="line">            Tex(<span class="string">r&quot;\sqrt&#123;&#123;(x+c)&#125;^2+y^2&#125;=2a-\sqrt&#123;&#123;(x-c)&#125;^2+y^2&#125;&quot;</span>),                                    <span class="comment">#1 l03</span></span><br><span class="line">            Tex(<span class="string">r&quot;\left(\sqrt&#123;&#123;(x+c)&#125;^2+y^2&#125;\ \right)^2=\left(2a-\sqrt&#123;&#123;(x-c)&#125;^2+y^2&#125;\right)^2&quot;</span>),    <span class="comment">#2 l04</span></span><br><span class="line">            Tex(<span class="string">r&quot;a\sqrt&#123;\left(x-c\right)^2+y^2&#125;=a^2-cx&quot;</span>),                                           <span class="comment">#3 l04(Transform)</span></span><br><span class="line">            Tex(<span class="string">r&quot;\left(a\sqrt&#123;\left(x-c\right)^2+y^2&#125;\right)^2=\left(a^2-cx\right)^2&quot;</span>),             <span class="comment">#4 l05</span></span><br><span class="line">            Tex(<span class="string">r&quot;\left(a^2-c^2\right)x^2+a^2y^2=a^2(a^2-c^2)&quot;</span>),                                     <span class="comment">#5 l05(Transform)</span></span><br><span class="line">            Text(<span class="string">r&quot;令&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>),                                                   <span class="comment">#6</span></span><br><span class="line">            Tex(<span class="string">r&quot;b=a^2-c^2&quot;</span>)                                                                        <span class="comment">#7</span></span><br><span class="line">            <span class="comment">#Tex(r&quot;\frac&#123;x^2&#125;&#123;a^2&#125;+\frac&#123;y^2&#125;&#123;b^2&#125;=1&quot;)                                               #l07</span></span><br><span class="line">        )</span><br><span class="line">        func_derivation.match_x(tDefine)</span><br><span class="line">        func_derivation.to_edge(UP)</span><br><span class="line">        func_derivation.set_color(BLUE)</span><br><span class="line">        func_derivation.scale(<span class="number">0.75</span>)</span><br><span class="line">        func_derivation[<span class="number">0</span>].shift(DOWN*<span class="number">1</span>)</span><br><span class="line">        func_derivation[<span class="number">1</span>].shift(DOWN*<span class="number">2</span>)</span><br><span class="line">        func_derivation[<span class="number">2</span>].shift(DOWN*<span class="number">3</span>)</span><br><span class="line">        func_derivation[<span class="number">3</span>].shift(DOWN*<span class="number">3</span>)</span><br><span class="line">        func_derivation[<span class="number">4</span>].shift(DOWN*<span class="number">4</span>)</span><br><span class="line">        func_derivation[<span class="number">5</span>].shift(DOWN*<span class="number">4</span>)</span><br><span class="line">        func_derivation[<span class="number">6</span>].shift(DOWN*<span class="number">5</span>)</span><br><span class="line">        func_derivation[<span class="number">7</span>].next_to(func_derivation[<span class="number">6</span>])</span><br><span class="line">        func_origin = Tex(<span class="string">r&quot;\frac&#123;x^2&#125;&#123;a^2&#125;+\frac&#123;y^2&#125;&#123;b^2&#125;=1&quot;</span>, isolate=[<span class="string">&quot;\frac&#123;x^2&#125;&#123;a^2&#125;+\frac&#123;y^2&#125;&#123;b^2&#125;=1&quot;</span>],color=WHITE).scale(<span class="number">0.75</span>).match_x(tDefine).to_edge(UP).shift(DOWN*<span class="number">6</span>)</span><br><span class="line">        </span><br><span class="line">        self.play(Write(func_derivation[<span class="number">0</span>]))</span><br><span class="line">        self.play(Write(func_derivation[<span class="number">1</span>]))</span><br><span class="line">        self.play(Write(func_derivation[<span class="number">2</span>]))</span><br><span class="line">        self.play(TransformMatchingTex(func_derivation[<span class="number">2</span>], func_derivation[<span class="number">3</span>], transform_mismatches=<span class="literal">True</span>))</span><br><span class="line">        self.play(Write(func_derivation[<span class="number">4</span>]))</span><br><span class="line">        self.play(TransformMatchingTex(func_derivation[<span class="number">4</span>], func_derivation[<span class="number">5</span>], transform_mismatches=<span class="literal">True</span>))</span><br><span class="line">        self.play(Write(func_derivation[<span class="number">6</span>]))</span><br><span class="line">        self.play(Write(func_derivation[<span class="number">7</span>]))</span><br><span class="line">        self.play(TransformFromCopy(func_derivation[<span class="number">4</span>], func_origin))</span><br><span class="line"></span><br><span class="line">        self.play(ShowCreationThenDestructionAround(func_origin))</span><br><span class="line">        self.play(FadeOutToPoint(func_derivation, axesL.get_center()))</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Standard Function</span></span><br><span class="line">        funcL = Tex(<span class="string">r&quot;\frac&#123;x^2&#125;&#123;a^2&#125;+\frac&#123;y^2&#125;&#123;b^2&#125;=1(a&gt;b&gt;0)&quot;</span>, isolate=[<span class="string">&quot;\frac&#123;x^2&#125;&#123;a^2&#125;+\frac&#123;y^2&#125;&#123;b^2&#125;=1&quot;</span>],color=BLUE).scale(<span class="number">0.75</span>)</span><br><span class="line">        funcL.move_to(func_origin)</span><br><span class="line">        funcR = Tex(<span class="string">r&quot;\frac&#123;y^2&#125;&#123;a^2&#125;+\frac&#123;x^2&#125;&#123;b^2&#125;=1(a&gt;b&gt;0)&quot;</span>,color=GREEN).scale(<span class="number">0.75</span>)</span><br><span class="line">        funcR.move_to(axesR).shift(DOWN*<span class="number">2.5</span>)</span><br><span class="line"></span><br><span class="line">        self.play(TransformMatchingTex(func_origin, funcL))</span><br><span class="line">        self.play(funcL.animate.move_to(axesL).shift(DOWN*<span class="number">2.5</span>).set_color(BLUE))</span><br><span class="line">        self.play(tDefine.animate.shift(LEFT*<span class="number">3</span>).set_color(WHITE))</span><br><span class="line">        self.play(ShowCreationThenDestructionAround(tDefine))</span><br><span class="line">        self.wait(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line">        self.play(</span><br><span class="line">            ShowCreation(axesR),</span><br><span class="line">            Write(axesR.get_axis_labels()))</span><br><span class="line">        gR = VGroup(ellipseR, funcR)</span><br><span class="line">        self.play(ShowCreation(gR))</span><br><span class="line">        self.wait(<span class="number">1.5</span>)</span><br><span class="line">        self.restore()</span><br><span class="line">        self.wait(<span class="number">0.5</span>)</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="pages2"><a href="#pages2" class="headerlink" title="pages2"></a>pages2</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> gamma</span><br><span class="line"><span class="keyword">from</span> re <span class="keyword">import</span> A</span><br><span class="line"><span class="keyword">from</span> manimlib <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">main</span>(<span class="title class_ inherited__">Scene</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">construct</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="comment">#self.save_state()</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment">#BGcolor: Default(Black)</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># Screen Plane (For movements)</span></span><br><span class="line">        <span class="comment">#NumberP = NumberPlane()</span></span><br><span class="line">        <span class="comment">#self.add(NumberP)</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># Title</span></span><br><span class="line">        title2 = Text(<span class="string">&quot;椭圆 · Part I · 基本性质&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).scale(<span class="number">2</span>)</span><br><span class="line">        self.play(ShowCreation(title2))</span><br><span class="line">        self.play(title2.animate.scale(<span class="number">0.5</span>).to_corner(UL))</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># AxesL</span></span><br><span class="line">        axesL = Axes(</span><br><span class="line">            x_range=(-<span class="number">3</span>,<span class="number">3</span>,<span class="number">0.5</span>), </span><br><span class="line">            y_range=(-<span class="number">2</span>,<span class="number">2</span>,<span class="number">0.5</span>), </span><br><span class="line">            height=<span class="number">4</span>,</span><br><span class="line">            width=<span class="number">6</span> ).shift(UP*<span class="number">0.5</span>+LEFT*<span class="number">4</span>)</span><br><span class="line">        self.play(</span><br><span class="line">            ShowCreation(axesL),</span><br><span class="line">            Write(axesL.get_axis_labels()))</span><br><span class="line">        <span class="comment">#self.wait(0.5)</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># Ellipse</span></span><br><span class="line">        a = <span class="number">2</span></span><br><span class="line">        b = <span class="number">1.5</span></span><br><span class="line">        ellipseL = Ellipse(width=<span class="number">4</span>,height=<span class="number">3</span>).set_color(BLUE).move_to(axesL)</span><br><span class="line">        self.play(ShowCreation(ellipseL))</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Focus Point:</span></span><br><span class="line">        f = np.sqrt(<span class="number">7</span>)/<span class="number">2</span></span><br><span class="line">        dF1 = Dot(axesL.c2p(-f,<span class="number">0</span>)).set_color(ORANGE)</span><br><span class="line">        dF2 = Dot(axesL.c2p(f,<span class="number">0</span>)).set_color(ORANGE)</span><br><span class="line">        tF1 = Tex(<span class="string">r&quot;F1&quot;</span>).set_color(ORANGE).scale(<span class="number">0.5</span>).next_to(dF1, direction=DOWN*<span class="number">1</span>/<span class="number">2</span>)</span><br><span class="line">        tF2 = Tex(<span class="string">r&quot;F2&quot;</span>).set_color(ORANGE).scale(<span class="number">0.5</span>).next_to(dF2, direction=DOWN*<span class="number">1</span>/<span class="number">2</span>)</span><br><span class="line">        gF = VGroup(dF1, tF1, dF2, tF2)</span><br><span class="line">        self.play(ShowCreation(gF))</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># Standard Function</span></span><br><span class="line">        funcL = Tex(<span class="string">r&quot;\frac&#123;x^2&#125;&#123;a^2&#125;+\frac&#123;y^2&#125;&#123;b^2&#125;=1(a&gt;b&gt;0)&quot;</span>, isolate=[<span class="string">&quot;\frac&#123;x^2&#125;&#123;a^2&#125;+\frac&#123;y^2&#125;&#123;b^2&#125;=1&quot;</span>],color=BLUE).scale(<span class="number">0.75</span>).move_to(axesL).shift(DOWN*<span class="number">2.5</span>)</span><br><span class="line">        funcL.move_to(axesL).shift(DOWN*<span class="number">3</span>)</span><br><span class="line">        self.play(Write(funcL))</span><br><span class="line">        self.wait(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Centre Line</span></span><br><span class="line">        line = Line(start=UP*<span class="number">4</span>, end=DOWN*<span class="number">4</span>)</span><br><span class="line">        self.play(ShowCreation(line))</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Sub title:</span></span><br><span class="line">        stitle = Text(<span class="string">&quot;基本性质&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).to_edge(UP).shift(RIGHT*<span class="number">3.5</span>)</span><br><span class="line">        self.play(TransformFromCopy(title2, stitle))</span><br><span class="line">        self.wait(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">        self.save_state()</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 焦点焦距</span></span><br><span class="line">        self.play(*[ApplyWave(mob) <span class="keyword">for</span> mob <span class="keyword">in</span> gF])</span><br><span class="line">        焦点 = Text(<span class="string">&quot;F1,F2 (±c,0): 焦点&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).set_color(ORANGE).scale(<span class="number">0.75</span>).move_to(stitle).shift(DOWN+LEFT*<span class="number">1.5</span>)</span><br><span class="line">        self.play(Write(焦点))</span><br><span class="line">        焦距线 = Line(start=dF1, end=dF2).set_color(ORANGE)</span><br><span class="line">        焦距<span class="number">1</span> = Tex(<span class="string">r&quot;\left|F_1F_2\right|&quot;</span>).scale(<span class="number">0.75</span>).next_to(焦点).set_color(ORANGE)</span><br><span class="line">        焦距<span class="number">2</span> = Text(<span class="string">&quot;: 焦距&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).scale(<span class="number">0.75</span>).next_to(焦距<span class="number">1</span>).set_color(ORANGE)</span><br><span class="line">        self.play(ShowCreationThenDestruction(焦距线), run_time=<span class="number">1.5</span>, rate_func=double_smooth)</span><br><span class="line">        self.play(Write(焦距<span class="number">1</span>), Write(焦距<span class="number">2</span>))</span><br><span class="line">        self.wait(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 左右顶点</span></span><br><span class="line">        dA1 = Dot(axesL.c2p(-<span class="number">2</span>,<span class="number">0</span>)).set_color(GREEN)</span><br><span class="line">        dA2 = Dot(axesL.c2p(<span class="number">2</span>,<span class="number">0</span>)).set_color(GREEN)</span><br><span class="line">        tA1 = Tex(<span class="string">r&quot;A_1&quot;</span>).set_color(GREEN).scale(<span class="number">0.5</span>).next_to(dA1, direction=DOWN*<span class="number">1</span>/<span class="number">2</span>)</span><br><span class="line">        tA2 = Tex(<span class="string">r&quot;A_2&quot;</span>).set_color(GREEN).scale(<span class="number">0.5</span>).next_to(dA2, direction=DOWN*<span class="number">1</span>/<span class="number">2</span>)</span><br><span class="line">        gA = VGroup(dA1, tA1, dA2, tA2)</span><br><span class="line">        self.play(ShowCreation(gA))</span><br><span class="line">        左右顶点 = Text(<span class="string">&quot;A1,A2 (±a,0): 左右顶点&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).set_color(GREEN).scale(<span class="number">0.75</span>).move_to(焦点).shift(DOWN)</span><br><span class="line">        self.play(Write(左右顶点))</span><br><span class="line">        长轴 = Line(start=dA1, end=dA2).set_color(GREEN)</span><br><span class="line">        长轴<span class="number">1</span> = Tex(<span class="string">r&quot;\left|A_1A_2\right|&quot;</span>).scale(<span class="number">0.75</span>).next_to(左右顶点).set_color(GREEN)</span><br><span class="line">        长轴<span class="number">2</span> = Text(<span class="string">&quot;: 长轴&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).scale(<span class="number">0.75</span>).next_to(长轴<span class="number">1</span>).set_color(GREEN)</span><br><span class="line">        self.play(ShowCreationThenDestruction(长轴), run_time=<span class="number">1.5</span>, rate_func=double_smooth)</span><br><span class="line">        self.play(Write(长轴<span class="number">1</span>), Write(长轴<span class="number">2</span>))</span><br><span class="line">        self.wait(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 上下顶点</span></span><br><span class="line">        dB1 = Dot(axesL.c2p(<span class="number">0</span>,-<span class="number">1.5</span>)).set_color(GOLD)</span><br><span class="line">        dB2 = Dot(axesL.c2p(<span class="number">0</span>,<span class="number">1.5</span>)).set_color(GOLD)</span><br><span class="line">        tB1 = Tex(<span class="string">r&quot;B_1&quot;</span>).set_color(GOLD).scale(<span class="number">0.5</span>).next_to(dB1, direction=DOWN*<span class="number">1</span>/<span class="number">2</span>)</span><br><span class="line">        tB2 = Tex(<span class="string">r&quot;B_2&quot;</span>).set_color(GOLD).scale(<span class="number">0.5</span>).next_to(dB2, direction=DOWN*<span class="number">1</span>/<span class="number">2</span>)</span><br><span class="line">        gB = VGroup(dB1, tB1, dB2, tB2)</span><br><span class="line">        self.play(ShowCreation(gB))</span><br><span class="line">        上下顶点 = Text(<span class="string">&quot;B1,B2 (±b,0): 上下顶点&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).set_color(GOLD).scale(<span class="number">0.75</span>).move_to(左右顶点).shift(DOWN)</span><br><span class="line">        self.play(Write(上下顶点))</span><br><span class="line">        短轴 = Line(start=dB1, end=dB2).set_color(GOLD)</span><br><span class="line">        短轴<span class="number">1</span> = Tex(<span class="string">r&quot;\left|B_1B_2\right|&quot;</span>).scale(<span class="number">0.75</span>).next_to(上下顶点).set_color(GOLD)</span><br><span class="line">        短轴<span class="number">2</span> = Text(<span class="string">&quot;: 短轴&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).scale(<span class="number">0.75</span>).next_to(短轴<span class="number">1</span>).set_color(GOLD)</span><br><span class="line">        self.play(ShowCreationThenDestruction(短轴), run_time=<span class="number">1.5</span>, rate_func=double_smooth)</span><br><span class="line">        self.play(Write(短轴<span class="number">1</span>), Write(短轴<span class="number">2</span>))</span><br><span class="line">        self.wait(<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">        self.restore()</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 离心率部分</span></span><br><span class="line">        <span class="comment"># e_t:标题</span></span><br><span class="line">        <span class="comment"># e_d：定义公式</span></span><br><span class="line">        e_t = Text(<span class="string">&quot;离心率&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).scale(<span class="number">0.85</span>).move_to(line, aligned_edge=LEFT).to_edge(UP).shift(DOWN*<span class="number">1.5</span>+RIGHT*<span class="number">0.25</span>)</span><br><span class="line">        self.play(Write(e_t))</span><br><span class="line">        e_d = Tex(<span class="string">r&quot;e=\frac&#123;c&#125;&#123;a&#125;&quot;</span>, isolate=[<span class="string">&quot;e=&quot;</span>]).scale(<span class="number">0.75</span>).next_to(e_t)</span><br><span class="line">        self.play(Write(e_d))</span><br><span class="line">        e_d2 = Tex(<span class="string">r&quot;=\frac&#123;\left|F_1F_2\right|&#125;&#123;\left|PF_1\right|+\left|PF_2\right|&#125;&quot;</span>).scale(<span class="number">0.75</span>).next_to(e_d)<span class="comment">#.move_to(stitle).shift(DOWN*2)</span></span><br><span class="line">        self.play(TransformFromCopy(e_d, e_d2))</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 焦点三角形</span></span><br><span class="line">        M1 = Dot(color=YELLOW_D).move_to(ellipseL.pfp(<span class="number">0.3</span>))</span><br><span class="line">        M2 = Dot(color=YELLOW_D).move_to(ellipseL.pfp(<span class="number">0.58</span>))</span><br><span class="line">        CMF = Polygon(M1.get_center(), M2.get_center(), dF2.get_center()).set_color(YELLOW_D)</span><br><span class="line">        CMF_t = Text(<span class="string">&quot;焦点三角形&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).scale(<span class="number">0.85</span>).move_to(line, aligned_edge=LEFT).shift(RIGHT*<span class="number">0.25</span>).match_y(e_d).shift(DOWN)</span><br><span class="line">        CMF_d = Tex(<span class="string">r&quot;C_&#123;\triangle ABF_2&#125;=4a&quot;</span>).scale(<span class="number">0.75</span>).next_to(CMF_t)</span><br><span class="line">        self.play(Write(CMF_t))</span><br><span class="line">        self.play(ShowCreation(M1), ShowCreation(M2))</span><br><span class="line">        self.play(ShowCreation(CMF))</span><br><span class="line">        self.play(Write(CMF_d))</span><br><span class="line">        self.wait(<span class="number">2</span>)</span><br><span class="line">        CMF_a = VGroup(M1, M2, CMF)</span><br><span class="line">        self.play(*[FadeOut(mob) <span class="keyword">for</span> mob <span class="keyword">in</span> CMF_a])</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 通经</span></span><br><span class="line">        h = b*b/a</span><br><span class="line">        dH1 = Dot(axesL.c2p(-f,h), color=YELLOW_D)</span><br><span class="line">        dH2 = Dot(axesL.c2p(-f,-h), color=YELLOW_D)</span><br><span class="line">        lH = Line(dH1, dH2).set_color(YELLOW_D)</span><br><span class="line">        gH = VGroup(dH1, dH2, lH)</span><br><span class="line">        h_t = Text(<span class="string">&quot;通径&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).scale(<span class="number">0.85</span>).move_to(line, aligned_edge=LEFT).shift(RIGHT*<span class="number">0.25</span>).match_y(CMF_t).shift(DOWN)</span><br><span class="line">        self.play(Write(h_t))</span><br><span class="line">        self.play(ShowCreation(gH))</span><br><span class="line">        h_d = Tex(<span class="string">r&quot;=\frac&#123;2b^2&#125;&#123;a&#125;&quot;</span>).scale(<span class="number">0.75</span>).next_to(h_t)</span><br><span class="line">        self.play(Write(h_d))</span><br><span class="line">        self.wait(<span class="number">2</span>)</span><br><span class="line">        self.play(*[FadeOut(mob) <span class="keyword">for</span> mob <span class="keyword">in</span> gH])</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 椭圆上一点到焦点性质</span></span><br><span class="line">        P = Dot(color=YELLOW_D).move_to(ellipseL.pfp(<span class="number">0.15</span>))</span><br><span class="line">        P_l = Tex(<span class="string">r&quot;P&quot;</span>).scale(<span class="number">0.7</span>).set_color(YELLOW_D).next_to(P)</span><br><span class="line">        PF1 = Line(P, dF1).set_color(YELLOW_D)</span><br><span class="line">        PF2 = Line(P, dF2).set_color(YELLOW_D)</span><br><span class="line">        gP = VGroup(P, PF1, PF2, P_l)</span><br><span class="line">        p_t = Text(<span class="string">&quot;椭圆上一点P&quot;</span>, font=<span class="string">&quot;HarmonyOS Sans SC&quot;</span>).scale(<span class="number">0.85</span>).move_to(line, aligned_edge=LEFT).shift(RIGHT*<span class="number">0.25</span>).match_y(h_t).shift(DOWN)</span><br><span class="line">        self.play(ShowCreation(gP))</span><br><span class="line">        self.play(Write(p_t))</span><br><span class="line">        p_1 = Tex(<span class="string">r&quot;\left|PF\right|\in\ \left[a-c,a+c\right]&quot;</span>).scale(<span class="number">0.75</span>).move_to(line, aligned_edge=LEFT).shift(RIGHT).match_y(p_t).shift(DOWN)</span><br><span class="line">        self.play(Write(p_1))</span><br><span class="line">        p_2 = Tex(<span class="string">r&quot;\left|PF_1\right|\bullet\left|PF_2\right|=\left[b^2,a^2\right]&quot;</span>).scale(<span class="number">0.75</span>).move_to(line, aligned_edge=LEFT).shift(RIGHT).match_y(p_1).shift(DOWN)</span><br><span class="line">        self.play(Write(p_2))</span><br><span class="line">        self.wait(<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">        self.restore()</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 面积</span></span><br><span class="line">        self.play(ShowCreation(gP))</span><br><span class="line">        a_1 = PF1.get_angle()</span><br><span class="line">        a1=a_1</span><br><span class="line">        a_2 = PF2.get_angle()</span><br><span class="line">        a2 = a_2-a_1</span><br><span class="line">        theta = Arc(start_angle=a1, angle=a2, arc_center=P.get_center(), radius=<span class="number">0.5</span>)</span><br><span class="line">        t_l = Tex(<span class="string">r&quot;\theta&quot;</span>).scale(<span class="number">0.7</span>).set_color(GREEN).next_to(theta, DOWN)</span><br><span class="line">        gt = VGroup(theta, t_l)</span><br><span class="line">        self.play(ShowCreation(gt))</span><br><span class="line">        S_d = Tex(<span class="string">r&#x27;S_&#123;\triangle F_1PF_2&#125;=b^2\bullet tan\frac&#123;\theta&#125;&#123;2&#125;&#x27;</span>, t2c=&#123;<span class="string">&#x27;\theta&#x27;</span>:GREEN&#125;).scale(<span class="number">0.85</span>).move_to(line, aligned_edge=LEFT).to_edge(UP).shift(DOWN*<span class="number">1.5</span>+RIGHT*<span class="number">0.25</span>)</span><br><span class="line">        self.play(Write(S_d))</span><br><span class="line">        func_derivation = VGroup(</span><br><span class="line">            Tex(<span class="string">r&quot;S_&#123;\triangle F_1PF_2&#125;=\frac&#123;1&#125;&#123;2&#125;\bullet\left|PF_1\right|\bullet\left|PF_2\right|\bullet\sin&#123;\theta&#125;&quot;</span>, isolate=[<span class="string">&quot;\left|PF_1\right|\bullet\left|PF_2\right|&quot;</span>]).scale(<span class="number">0.6</span>).match_x(stitle).to_edge(UP).shift(DOWN*<span class="number">2.5</span>), <span class="comment">#0</span></span><br><span class="line">            Tex(<span class="string">r&quot;\left|F_1F_2\right|^2=\left|PF_1\right|^2+\left|PF_2\right|^2-2\left|PF_1\right|\bullet\left|PF_2\right|\bullet\cos&#123;\theta&#125;&quot;</span>, isolate=[<span class="string">&quot;\left|F_1F_2\right|^2=&quot;</span>, <span class="string">&quot;\left|PF_1\right|\bullet\left|PF_2\right|&quot;</span>, <span class="string">&quot;\bullet\cos&#123;\theta&#125;&quot;</span>]).scale(<span class="number">0.6</span>).match_x(stitle).to_edge(UP).shift(DOWN*<span class="number">3.5</span>),<span class="comment">#1</span></span><br><span class="line">            Tex(<span class="string">r&quot;&#123;\left|F_1F_2\right|^2=\left(\left|PF_1\right|+\left|PF_2\right|\right)&#125;^2-2\left|PF_1\right|\bullet\left|PF_2\right|\bullet\left(1+\cos&#123;\theta&#125;\right)&quot;</span>, isolate=[<span class="string">&quot;\left|F_1F_2\right|^2=&quot;</span>, <span class="string">&quot;\left|PF_1\right|\bullet\left|PF_2\right|&quot;</span>, <span class="string">&quot;\left(1+\cos&#123;\theta&#125;\right)&quot;</span>]).scale(<span class="number">0.5</span>).match_x(stitle).to_edge(UP).shift(DOWN*<span class="number">4.5</span>),<span class="comment">#2</span></span><br><span class="line">            Tex(<span class="string">r&quot;&#123;4c&#125;^2=&#123;4a&#125;^2-2\left|PF_1\right|\bullet\left|PF_2\right|\bullet\left(1+\cos&#123;\theta&#125;\right)&quot;</span>, isolate=[<span class="string">&quot;\left|PF_1\right|\bullet\left|PF_2\right|&quot;</span>, <span class="string">&quot;\left(1+\cos&#123;\theta&#125;\right)&quot;</span>]).scale(<span class="number">0.6</span>).match_x(stitle).to_edge(UP).shift(DOWN*<span class="number">5.5</span>),</span><br><span class="line">            Tex(<span class="string">r&quot;\left|PF_1\right|\bullet\left|PF_2\right|=\frac&#123;2b^2&#125;&#123;\left(1+\cos&#123;\theta&#125;\right)&#125;&quot;</span>).scale(<span class="number">0.6</span>).match_x(stitle).to_edge(UP).shift(DOWN*<span class="number">6.5</span>)</span><br><span class="line">        )</span><br><span class="line">        </span><br><span class="line">        self.play(Write(func_derivation[<span class="number">0</span>]))</span><br><span class="line">        self.play(TransformFromCopy(func_derivation[<span class="number">0</span>], func_derivation[<span class="number">1</span>]))</span><br><span class="line">        self.play(TransformFromCopy(func_derivation[<span class="number">1</span>], func_derivation[<span class="number">2</span>]))</span><br><span class="line">        self.play(TransformFromCopy(func_derivation[<span class="number">2</span>], func_derivation[<span class="number">3</span>]))</span><br><span class="line">        self.play(TransformFromCopy(func_derivation[<span class="number">3</span>], func_derivation[<span class="number">4</span>]))</span><br><span class="line">        self.play(ShowCreationThenDestructionAround(func_derivation[<span class="number">4</span>]))</span><br><span class="line">        self.play(Indicate(S_d))</span><br><span class="line">        self.wait(<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">        self.restore()</span><br><span class="line">        self.add(P)</span><br><span class="line">        PA = VGroup(</span><br><span class="line">            Line(P, dA1),</span><br><span class="line">            Line(P,dA2)</span><br><span class="line">        )</span><br><span class="line">        PA.set_color(YELLOW_D)</span><br><span class="line">        PA_d = Tex(<span class="string">r&quot;k_&#123;PA_1&#125;\bullet k_&#123;PA_2&#125;=-\frac&#123;b^2&#125;&#123;a^2&#125;&quot;</span>).scale(<span class="number">0.8</span>).move_to(line, aligned_edge=LEFT).to_edge(UP).shift(DOWN*<span class="number">1.5</span>+RIGHT*<span class="number">0.25</span>)</span><br><span class="line">        self.play(ShowCreation(gA))</span><br><span class="line">        self.play(ShowCreation(PA))</span><br><span class="line">        </span><br><span class="line">        self.play(Write(PA_d))</span><br><span class="line">        self.wait(<span class="number">2</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Python/" rel="tag"># Python</a>
+              <a href="/tags/Manim/" rel="tag"># Manim</a>
+              <a href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag"># 数学</a>
+              <a href="/tags/%E6%A4%AD%E5%9C%86/" rel="tag"># 椭圆</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/ThinkBeforeExam/" rel="prev" title="期末前的思考">
+                  <i class="fa fa-angle-left"></i> 期末前的思考
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/rarRepair/" rel="next" title="rar恢复记录">
+                  rar恢复记录 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2023</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Coconut Tsoi</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha256-CTSx/A06dm1B063156EVh15m6Y67pAjZZaQc89LLSrU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"coconut521.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.18.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="Q#(QSharp)是一种专为量子计算机开发的量子编程语言，官方给出了三种不同的使用方式1.Q#+Python，即在 .q (QSharp)文件里编写量子算法，然后在Python中(以Host.py的形式)调用2.Q#+C#，内容同上，改为采用C#作为驱动3.在Visual Studio（2017或2019均可）中安装相关拓展从而直接在VS中编写量子程序。由于我比较倾向第一种，故本教程采用vsco">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在VSCode中安装Q#">
+<meta property="og:url" content="https://coconut521.github.io/2020/InstallForVSCode/index.html">
+<meta property="og:site_name" content="椰子耶">
+<meta property="og:description" content="Q#(QSharp)是一种专为量子计算机开发的量子编程语言，官方给出了三种不同的使用方式1.Q#+Python，即在 .q (QSharp)文件里编写量子算法，然后在Python中(以Host.py的形式)调用2.Q#+C#，内容同上，改为采用C#作为驱动3.在Visual Studio（2017或2019均可）中安装相关拓展从而直接在VS中编写量子程序。由于我比较倾向第一种，故本教程采用vsco">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-04-05T13:36:52.000Z">
+<meta property="article:modified_time" content="2023-10-24T10:27:51.545Z">
+<meta property="article:author" content="Coconut Tsoi">
+<meta property="article:tag" content="QSharp">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="量子">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://coconut521.github.io/2020/InstallForVSCode/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://coconut521.github.io/2020/InstallForVSCode/","path":"2020/InstallForVSCode/","title":"在VSCode中安装Q#"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>在VSCode中安装Q# | 椰子耶</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">椰子耶</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">内心甘甜，外表坚硬</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/2020/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87"><span class="nav-number">1.</span> <span class="nav-text">前期准备</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Python%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">1.1.</span> <span class="nav-text">Python的安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PIP%E5%AE%89%E8%A3%85"><span class="nav-number">1.2.</span> <span class="nav-text">PIP安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Net-Core-SDK%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">1.3.</span> <span class="nav-text">.Net Core SDK的安装</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#QDK%EF%BC%88QSharp-Development-Kit%EF%BC%89%E7%9A%84%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text">QDK（QSharp Development Kit）的安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hello-World-%E6%B5%8B%E8%AF%95"><span class="nav-number">3.</span> <span class="nav-text">Hello, World! 测试</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">4.</span> <span class="nav-text">可能遇到的问题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E6%9D%9F%E8%AF%AD"><span class="nav-number">5.</span> <span class="nav-text">结束语</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B0%A2%E8%B0%A2%E8%A7%82%E7%9C%8B%EF%BC%81"><span class="nav-number">5.1.</span> <span class="nav-text">谢谢观看！</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Coconut Tsoi</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">20</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">28</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://coconut521.github.io/2020/InstallForVSCode/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Coconut Tsoi">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="椰子耶">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="在VSCode中安装Q# | 椰子耶">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          在VSCode中安装Q#
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-04-05 21:36:52" itemprop="dateCreated datePublished" datetime="2020-04-05T21:36:52+08:00">2020-04-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-10-24 18:27:51" itemprop="dateModified" datetime="2023-10-24T18:27:51+08:00">2023-10-24</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/IT/" itemprop="url" rel="index"><span itemprop="name">IT</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/IT/QSharp/" itemprop="url" rel="index"><span itemprop="name">QSharp</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p><strong>Q#</strong>(<em>QSharp</em>)是一种专为量子计算机开发的量子编程语言，官方给出了三种不同的使用方式<br>1.Q#+Python，即在 <strong>.q</strong> (QSharp)文件里编写量子算法，然后在Python中(以Host.py的形式)调用<br>2.Q#+C#，内容同上，改为采用C#作为驱动<br>3.在Visual Studio（2017或2019均可）中安装相关拓展从而直接在VS中编写量子程序。<br><strong>由于我比较倾向第一种，故本教程采用vscode安装并使用Q#</strong></p>
+<span id="more"></span>
+
+<h1 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h1><p>首先，你需要安装一个……电脑！（这可不是废话，你总不能指望用大脑写程序吧。不过说句废话，或许将来真有可能用大脑编写程序！）</p>
+<p>然后<a target="_blank" rel="noopener" href="https://code.visualstudio.com/">VSCode</a>。这是算是基本中的基本了，也是微软官方的推荐。当然，你可以选的自己喜欢的代码编辑器。</p>
+<blockquote>
+<p>如果不知道什么是VSCode或者什么是代码编辑器，又或者不太了解编程，可以看我写的编程基础部分<br>都明白的跳过这些直接看后边。<br>我会在“基础”部分对电脑、编程等基本知识以及一些属于做一些讲解。</p>
+</blockquote>
+<p>下面的内容很重要，如果没有安装好可能导致代码无法运行或各种错误。</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.python.org/downloads/">Python</a> 3.6或更高版本</li>
+<li><a target="_blank" rel="noopener" href="https://pip.pypa.io/en/stable/installing">PIP</a> Python 包管理器</li>
+<li><a target="_blank" rel="noopener" href="https://www.microsoft.com/net/download">.NET Core SDK 3.1 或更高版本</a></li>
+</ul>
+<h2 id="Python的安装"><a href="#Python的安装" class="headerlink" title="Python的安装"></a>Python的安装</h2><p>在官网中下载Python最新版本，地址在上面点击Python即可打开，没有找到的…<a target="_blank" rel="noopener" href="https://www.python.org/downloads/">ここにです! </a></p>
+<p>这个就不过多赘述了，个人认为安装时没有太多问题。</p>
+<h2 id="PIP安装"><a href="#PIP安装" class="headerlink" title="PIP安装"></a>PIP安装</h2><p>这个有必要强调一下，安装时需要使用<code>python3 xxxx/get-pip.py</code>。注意是<strong>python3</strong>，而不是<em>python</em></p>
+<p>剩下的照常安装……</p>
+<h2 id="Net-Core-SDK的安装"><a href="#Net-Core-SDK的安装" class="headerlink" title=".Net Core SDK的安装"></a>.Net Core SDK的安装</h2><p>非常简单，按照官网描述，很快就可以安装。</p>
+<h1 id="QDK（QSharp-Development-Kit）的安装"><a href="#QDK（QSharp-Development-Kit）的安装" class="headerlink" title="QDK（QSharp Development Kit）的安装"></a>QDK（QSharp Development Kit）的安装</h1><p>安装进行到这步就说明离成功不远了，但是别大意，这里才是最容易出现问题的地方！！！</p>
+<ol>
+<li>安装<code>qsharp</code>包，这是一个允许在 Q # 和 Python 之间互操作的 Python 包。</li>
+</ol>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install qsharp</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>安装<code>iqsharp</code>，Jupyter 和 Python 使用的内核，提供用于编译和执行 Q # 操作的核心功能。</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dotnet tool install -g Microsoft.Quantum.IQSharp</span><br><span class="line">dotnet iqsharp install</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li><a target="_blank" rel="noopener" href="https://marketplace.visualstudio.com/items?itemName=quantum.quantum-devkit-vscode">为 VS Code 安装 QDK 扩展</a></li>
+</ol>
+<p>这个点击链接查看微软官网的文档</p>
+<blockquote>
+<p>声明：以上部分内容来自<a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/quantum/install-guide/pyinstall">微软官网关于Q#的文档</a>，点击查看官方的说明～</p>
+</blockquote>
+<h1 id="Hello-World-测试"><a href="#Hello-World-测试" class="headerlink" title="Hello, World! 测试"></a>Hello, World! 测试</h1><blockquote>
+<p>什么！？你还不知道什么是Hello,World！来来来，“分类-IT-基础”你可以看看！</p>
+</blockquote>
+<ul>
+<li><p>通过创建名为 Operation.qs 的文件并向其添加以下代码来创建最小 Q# 操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">namespace HelloWorld &#123;</span><br><span class="line">    open Microsoft.Quantum.Intrinsic;</span><br><span class="line">    open Microsoft.Quantum.Canon;</span><br><span class="line"></span><br><span class="line">    operation SayHello() : Unit &#123;</span><br><span class="line">        Message(&quot;Hello from quantum world!&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建名为 hello_world.py 的 Python 程序来调用 Q# SayHello() 操作：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> qsharp</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> HelloWorld <span class="keyword">import</span> SayHello</span><br><span class="line"></span><br><span class="line">SayHello.simulate()</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>运行该程序</p>
+</li>
+</ul>
+<p><em><strong>这里需要说明一下，根据官网的文档是</strong></em><code>python hello_world.py</code><em><strong>但我们需要使用</strong></em><code>python3 hello_world.py</code></p>
+<ul>
+<li>如果程序输出如下内容，则表明一切都没问题了！安装成功了！<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello from quantum world!</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="可能遇到的问题"><a href="#可能遇到的问题" class="headerlink" title="可能遇到的问题"></a>可能遇到的问题</h1><ul>
+<li>无法在输入命令时总是显示各种失败</li>
+</ul>
+<p>可能是你没有给予相应的权限，如果是Windows系统，请右键cmd.exe选择“以管理员身份打开”，Mac&#x2F;Linux则需要在命令前面添加<code>sudo </code>（别忘了空格）以保证该软件有相应的权限去安装。</p>
+<ul>
+<li>pip安装qsharp时显示版本问题</li>
+</ul>
+<p>可能的解决方案：回到安装PIP的那一步使用<code>python3</code>命令进行安装</p>
+<h1 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h1><p>如果还有问题或有需要交流的可以评论，我会不定期查看评论并且进行回复，如果您提的问题或建议有帮助，我会及时的更新该文档，以便其他人更好的阅读。</p>
+<h2 id="谢谢观看！"><a href="#谢谢观看！" class="headerlink" title="谢谢观看！"></a>谢谢观看！</h2>
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/QSharp/" rel="tag"># QSharp</a>
+              <a href="/tags/Python/" rel="tag"># Python</a>
+              <a href="/tags/%E9%87%8F%E5%AD%90/" rel="tag"># 量子</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2020/about/" rel="prev" title="关于我和我的博客">
+                  <i class="fa fa-angle-left"></i> 关于我和我的博客
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2020/GraduationMemorial/" rel="next" title="九年级的小情绪">
+                  九年级的小情绪 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2023</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Coconut Tsoi</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
