@@ -19,15 +19,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"coconut521.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.18.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Q#(QSharp)是一种专为量子计算机开发的量子编程语言，官方给出了三种不同的使用方式1.Q#+Python，即在 .q (QSharp)文件里编写量子算法，然后在Python中(以Host.py的形式)调用2.Q#+C#，内容同上，改为采用C#作为驱动3.在Visual Studio（2017或2019均可）中安装相关拓展从而直接在VS中编写量子程序。由于我比较倾向第一种，故本教程采用vsco">
+    <meta name="description" content="Q#(QSharp)是一种专为量子计算机开发的量子编程语言，官方给出了三种不同的使用方式1.Q#+Python，即在 .q (QSharp)文件里编写量子算法，然后在Python中(以Host.py的形式)调用2.Q#+C#，内容同上，改为采用C#作为驱动3.在Visual Studio（2017或2019均可）中安装相关拓展从而直接在VS中编写量子程序。由于我比较倾向第一种，故本教程采用vsc">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在VSCode中安装Q#">
 <meta property="og:url" content="https://coconut521.github.io/2020/InstallForVSCode/index.html">
 <meta property="og:site_name" content="椰子耶">
-<meta property="og:description" content="Q#(QSharp)是一种专为量子计算机开发的量子编程语言，官方给出了三种不同的使用方式1.Q#+Python，即在 .q (QSharp)文件里编写量子算法，然后在Python中(以Host.py的形式)调用2.Q#+C#，内容同上，改为采用C#作为驱动3.在Visual Studio（2017或2019均可）中安装相关拓展从而直接在VS中编写量子程序。由于我比较倾向第一种，故本教程采用vsco">
+<meta property="og:description" content="Q#(QSharp)是一种专为量子计算机开发的量子编程语言，官方给出了三种不同的使用方式1.Q#+Python，即在 .q (QSharp)文件里编写量子算法，然后在Python中(以Host.py的形式)调用2.Q#+C#，内容同上，改为采用C#作为驱动3.在Visual Studio（2017或2019均可）中安装相关拓展从而直接在VS中编写量子程序。由于我比较倾向第一种，故本教程采用vsc">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-04-05T13:36:52.000Z">
-<meta property="article:modified_time" content="2023-10-24T10:27:51.545Z">
+<meta property="article:modified_time" content="2023-10-24T11:29:48.281Z">
 <meta property="article:author" content="Coconut Tsoi">
 <meta property="article:tag" content="QSharp">
 <meta property="article:tag" content="Python">
@@ -233,7 +233,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-10-24 18:27:51" itemprop="dateModified" datetime="2023-10-24T18:27:51+08:00">2023-10-24</time>
+      <time title="修改时间：2023-10-24 19:29:48" itemprop="dateModified" datetime="2023-10-24T19:29:48+08:00">2023-10-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -258,7 +258,9 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p><strong>Q#</strong>(<em>QSharp</em>)是一种专为量子计算机开发的量子编程语言，官方给出了三种不同的使用方式<br>1.Q#+Python，即在 <strong>.q</strong> (QSharp)文件里编写量子算法，然后在Python中(以Host.py的形式)调用<br>2.Q#+C#，内容同上，改为采用C#作为驱动<br>3.在Visual Studio（2017或2019均可）中安装相关拓展从而直接在VS中编写量子程序。<br><strong>由于我比较倾向第一种，故本教程采用vscode安装并使用Q#</strong></p>
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p><strong>Q#</strong>(<em>QSharp</em>)是一种专为量子计算机开发的量子编程语言，官方给出了三种不同的使用方式<br>1.Q#+Python，即在 <strong>.q</strong> (QSharp)文件里编写量子算法，然后在Python中(以Host.py的形式)调用<br>2.Q#+C#，内容同上，改为采用C#作为驱动<br>3.在Visual Studio（2017或2019均可）中安装相关拓展从而直接在VS中编写量子程序。<br><strong>由于我比较倾向第一种，故本教程采用vscode安装并使用Q#</strong></p>
+</blockquote>
 <span id="more"></span>
 
 <h1 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h1><p>首先，你需要安装一个……电脑！（这可不是废话，你总不能指望用大脑写程序吧。不过说句废话，或许将来真有可能用大脑编写程序！）</p>
