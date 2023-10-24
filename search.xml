@@ -179,8 +179,11 @@
   <entry>
     <title>Hexo tags 用法</title>
     <url>/2022/HexoTags/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>通过Tags标签实现多样式切换</p>
-<span id="more"></span>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="通过Tags标签实现多样式切换"><a href="#通过Tags标签实现多样式切换" class="headerlink" title="通过Tags标签实现多样式切换"></a>通过Tags标签实现多样式切换<br><span id="more"></span></h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;</span><br><span class="line">文字居中</span><br><span class="line">&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>文字居中</p>
+
+</blockquote>
 
 <hr>
 <h1 id="note"><a href="#note" class="headerlink" title="note"></a>note</h1><h2 id="总览"><a href="#总览" class="headerlink" title="总览"></a>总览</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">note.js</span><br><span class="line">&#123;% note [class] [no-icon] %&#125;</span><br><span class="line">Any content (support inline tags too.io).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">[class]   : default | primary | success | info | warning | danger.</span><br><span class="line">[no-icon] : Disable icon in note.</span><br><span class="line">All parameters are optional.</span><br></pre></td></tr></table></figure>
