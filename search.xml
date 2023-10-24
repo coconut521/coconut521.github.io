@@ -1,117 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>植物的结构与功能</title>
-    <url>/2023/StrcFuncPlant/</url>
+    <title>C++ | 检查输入非int</title>
+    <url>/2023/InputCheckNotInt/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>普通生物学 2.2</p>
+<p>为了防止向 int 类型输入字母等非法内容，可以使用以下方式输入：</p>
 </blockquote>
 <span id="more"></span>
-
-<h2 id="植物的器官"><a href="#植物的器官" class="headerlink" title="植物的器官"></a>植物的器官</h2><ul>
-<li>营养器官<ul>
-<li>叶 Leaf</li>
-<li>茎 Shoot</li>
-<li>根 Root</li>
-</ul>
-</li>
-<li>生殖器官<ul>
-<li>花 Flower</li>
-<li>果实 Fruit</li>
-<li>种子 Seed</li>
-</ul>
-</li>
-</ul>
-<h3 id="根-Root"><a href="#根-Root" class="headerlink" title="根 Root"></a>根 Root</h3><h4 id="根的主要功能"><a href="#根的主要功能" class="headerlink" title="根的主要功能"></a>根的主要功能</h4><blockquote>
-<p>具有<strong>固着和支持</strong>作用<br><strong>吸收</strong>水、二氧化碳及溶解于水中的无机盐<br><strong>储藏合成</strong>作用<br>其它：呼吸、繁殖, etc</p>
-</blockquote>
-<h4 id="根的形态"><a href="#根的形态" class="headerlink" title="根的形态"></a>根的形态</h4><ul>
-<li>定根<ul>
-<li>主根 Main root<br>  由胚根生长出来的 ^6fd268</li>
-<li>侧根 Lateral root<br> 主根生长到一定程度就向后生长出许多侧根</li>
-</ul>
-</li>
-<li>不定根 Adventitious root<br>  在根、茎、老根或胚轴上生出的根  ^59e736</li>
-<li>Examples ^ff827b<ul>
-<li>玉米的支持根</li>
-<li>萝卜的贮藏根</li>
-<li>榕树的气生根</li>
-<li>何首乌的块根</li>
-<li>红树林的呼吸根</li>
-<li>热带雨林中的板根</li>
-</ul>
-</li>
-</ul>
-<h3 id="茎-Shoot"><a href="#茎-Shoot" class="headerlink" title="茎 Shoot"></a>茎 Shoot</h3><blockquote>
-<p>茎是植物生长在地上部的营养器官，其上着生叶、花和果实<br>茎通常是呈圆柱形，少数其它形状</p>
-</blockquote>
-<p>^0f24d7</p>
-<ul>
-<li>茎包括芽、节、节间、枝条以及皮孔</li>
-<li>芽包括顶芽和侧芽（叶腋 内着生）<ul>
-<li>节：叶片的着生处  </li>
-<li>节间：两节之间的位置 </li>
-<li>叶痕：叶子脱落后，叶柄 在茎上留下的痕迹 </li>
-<li>皮孔：木质茎上交换气体的通道 （<em>杨树的皮孔有特点</em>）</li>
-</ul>
-</li>
-<li>通常具有<strong>顶端优势</strong></li>
-</ul>
-<h4 id="茎的主要功能"><a href="#茎的主要功能" class="headerlink" title="茎的主要功能"></a>茎的主要功能</h4><ul>
-<li><strong>输导作用</strong></li>
-<li>支持作用：伸展枝、叶、花、果，利于光合作用、传粉和果实传播</li>
-<li>贮藏作用：鳞茎、块茎、球茎、根状茎等贮存大量养料</li>
-<li>繁殖作用：变态茎的自然营养繁殖；能产生不定芽和不定根，扦插、压条、嫁接等</li>
-<li>光合作用 e.g. 仙人掌</li>
-</ul>
-<h4 id="茎的形态分类"><a href="#茎的形态分类" class="headerlink" title="茎的形态分类"></a>茎的形态分类</h4><ul>
-<li>直立茎</li>
-<li>匍匐茎（草莓）</li>
-<li>攀缘茎（爬山虎）</li>
-<li>缠绕茎（牵牛花）</li>
-<li>球茎（荸荠）</li>
-<li>根状茎（荷花）</li>
-<li>鳞茎（百合）</li>
-<li>块茎（土豆）</li>
-</ul>
-<h4 id="块茎与块根的比较"><a href="#块茎与块根的比较" class="headerlink" title="块茎与块根的比较"></a>块茎与块根的比较</h4><ul>
-<li>块茎<br>  [[#^0f24d7]]茎的形态 节&amp;节间<br>  [[#茎的主要功能]]</li>
-<li>块根<br>  [[#根的形态]]<br>  根的来源[[#^6fd268]][[#^59e736]]<br>  [[#根的主要功能]]</li>
-</ul>
-<h3 id="叶"><a href="#叶" class="headerlink" title="叶"></a>叶</h3>]]></content>
-      <categories>
-        <category>生物 - 植物学</category>
-      </categories>
-      <tags>
-        <tag>植物</tag>
-        <tag>结构与功能</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于我和我的博客</title>
-    <url>/2020/about/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="关于我～"><a href="#关于我～" class="headerlink" title="关于我～"></a>关于我～</h2><div class="note info"><p>Hello，大家好，我是 <strong>椰子耶</strong> 。坐标：<em>天津</em>，是一名大学生。这是我的个人博客，会不时发布一些我写的文章以及生活感悟，希望大家喜欢。</p>
-<p>喜欢航空，not pilot, but Air Traffic Controller！喜欢的游戏-&gt;ぼくは航空管制官３&#x2F;４</p>
-<p>会一点点代码知识，主打方向 <strong>C&#x2F;C++<strong>，想学</strong>Ptyhon</strong>或<strong>Go</strong>。最近听说有关量子编程语言<em>Q#</em> 很感兴趣，希望可以和大家交流！<br><del>其实Js、React也想学……</del></p>
+<div class="note warning"><h3 id="需要注意！"><a href="#需要注意！" class="headerlink" title="需要注意！"></a>需要注意！</h3><p>某些情况下需要 <code>#include &lt;limit&gt;</code></p>
 </div>
-<span id="more"></span>
 
-<h2 id="关于这篇博客"><a href="#关于这篇博客" class="headerlink" title="关于这篇博客"></a>关于这篇博客</h2><p>这是我的个人博客，我日常会使用随笔的方式记录生活，但是我觉得记录下来的不能让它尘封起来，所以开设了这个博客。当然，在我学习编程的道路上了解的知识也会发布在这上面，详情见分类。</p>
-<h2 id="Hexo以及NexT"><a href="#Hexo以及NexT" class="headerlink" title="Hexo以及NexT"></a>Hexo以及NexT</h2><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>正如这个标题，本网站是由Hexo建立的。<a href="https://hexo.io/zh-cn/">Hexo</a>是一个开源的用于建立个人博客的框架，对于Web新手十分友好。<br>所以本网站的代码并不是我编写的[捂脸]。</p>
-<p><del>最关键的是有了Gitee的帮助，这些全部免费，一分钱都没有花！（哦天哪，开源真是个好东西）</del></p>
-<blockquote>
-<p>对于了解过网站的建设流程的同学可以知道，网站需要服务器，而服务器大多需要花钱，但是一个代码托管平台<del>Gitee</del>提供了Pages服务，这个可以帮助你免费在上面建立静态网站。</p>
-</blockquote>
-<p>咳咳，<strong>重来一遍</strong>，最关键的是，有了GitLab和 <del>Cloudfare</del> Vercel的帮助，可以将自己的网站上传到GitLab再到<del>Cloudfare</del> Vercel去部署。</p>
-<p>关于为什么我没有继续用Gitee、Cloudfare这件事。就是说也不想多说了。有时间发一篇对比~</p>
-<h3 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h3><p>关于Hexo有一个很棒的事就是可以自行选择自己喜欢的主题，在这里我选择的是<a href="https://theme-next.js.org/">NexT.Gemini</a>主题.</p>
-<h2 id="我也想建网站！"><a href="#我也想建网站！" class="headerlink" title="我也想建网站！"></a>我也想建网站！</h2><p>这个不要着急啊，<del>假期我会更新一篇文章去说明</del>，<del>有两种方案</del>，我会分别写出教程的～([Doge]就是说看情况吧，网上教程也不少，有时间的话我也会写一遍详细的)</p>
-]]></content>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> (!(cin &gt;&gt; i))</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Invalid input, please input again: &quot;</span> ;</span><br><span class="line">    cin.<span class="built_in">clear</span>();</span><br><span class="line">    cin.<span class="built_in">ignore</span>(numeric_limits&lt;streamsize&gt;::<span class="built_in">max</span>(), <span class="string">&#x27;\n&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>生活</category>
+        <category>IT</category>
+        <category>CPlusPlus</category>
       </categories>
       <tags>
-        <tag>about</tag>
+        <tag>cpp</tag>
       </tags>
   </entry>
   <entry>
@@ -133,54 +38,21 @@
       </tags>
   </entry>
   <entry>
-    <title>rar恢复记录</title>
-    <url>/2022/rarRepair/</url>
+    <title>C++ | 排序 | 冒泡排序</title>
+    <url>/2022/BubbleSort/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>在网上上传下载了12个压缩包（一共100多G）之后不出意外的遇到了 <code>CRC Error</code> ，而幸运的是压缩包里有还原记录，那么下面就是自己建压缩包的时候添加还原记录的方法：</p>
+<p>外循环 <code>i</code> 一共循环 <code>数组总数</code> 次<br>内循环 <code>j</code> 内逐个比对 <code>总数-i-1</code> 次</p>
 </blockquote>
 <span id="more"></span>
 
-<p>在 <code>WinRAR</code> 软件中添加新压缩包，右侧压缩选项勾选 <code>添加恢复记录</code> ，如图：<br><img src="/2022/rarRepair/01.png" alt="01.png"></p>
-<p>点击上方 <code>高级</code> ，还可以选择恢复记录大小，如图：<br><img src="/2022/rarRepair/02.png" alt="02.png"></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span> </span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//创建数组 print</span></span><br><span class="line">    <span class="type">int</span> arr[<span class="number">9</span>] = &#123; <span class="number">0</span> &#125;;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>; i&lt;<span class="number">9</span>; i++) </span><br><span class="line">        cin &gt;&gt; arr[i];</span><br><span class="line">        </span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;您输入的是: &quot;</span> ;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>; i&lt;<span class="number">9</span>; i++) </span><br><span class="line">        cout &lt;&lt; arr[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">    </span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;下面开始排序：&quot;</span> &lt;&lt; endl;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//冒泡排序 操作9-1次（总数-1)</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>; i&lt;<span class="number">8</span>; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//对比i-1次</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j=<span class="number">0</span>; j&lt;<span class="number">8</span>-i; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(arr[j] &gt; arr[j+<span class="number">1</span>])</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="type">int</span> temp = arr[j];</span><br><span class="line">                arr[j]=arr[j+<span class="number">1</span>];</span><br><span class="line">                arr[j+<span class="number">1</span>]=temp;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> k=<span class="number">0</span>; k&lt;<span class="number">9</span>; k++) </span><br><span class="line">            cout &lt;&lt; arr[k] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">        cout &lt;&lt; endl;        </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>IT</category>
+        <category>CPlusPlus</category>
       </categories>
       <tags>
-        <tag>rar</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>九年级的小情绪</title>
-    <url>/2020/GraduationMemorial/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p><strong>致初中的点滴生活</strong></p>
-</blockquote>
-<p>快放学了。<br>其实放学是件很令人高兴的事，心却不能像浮云一样轻盈——九年级了。虽不是下半学期，但上半学期的最后一天还是很难过的。</p>
-<span id="more"></span>
-
-<p>近一个月，考试、讲卷子，考试、讲卷子……像是加了一个“while(1);”循环。回家的作业也无非是卷子。自然，对放学这样的事也提不起兴趣。不过还好，每次做的卷子都是不一样的，还不算枯燥。</p>
-<p>最后一节课，老师讲期末考试要求。老师在讲，我们的心早不知在何处。浮云在飘，落叶的梦亦不知落何处。我抬头望着天空，心中却是不一样的境界。胡乱的用铅笔记下老师所讲的内容，结果只是错字一堆——像个小学生。</p>
-<p>找橡皮，想要擦掉。找不到橡皮，又觉得没什么好擦的。错字也挺好看的。心情遇瓶颈之时想到美术老师曾说过的话：“手里经常拿着什么东西是空虚的表现。”大悟似的在手心找到橡皮，甩手扔进笔袋，继续望着浮云在飘。</p>
-<p>小学时一个非常要好的朋友曾再快毕业时对我说过这样的话“快毕业了，咱们就要分开了……”不知为什么，看着浮云，想着这句话，泪水充满了眼眶，但又不忍落下。窗外浮云继续飘着，浮云在赶路，它会记得所到过的每一个地方的美景吗？会记得遇到的每一朵云彩的笑容吗？</p>
-<p>“怎么了？压力大？”“没，胡思乱想……”同桌没再说什么。过了一会，他继续说“没想到，九年级这么快！”“更没想到初中生活也过着这么快！”我若有所思的答道，而后意识到自己好像不应该将这样的悲伤情绪传达给其他人。</p>
-<p>“是啊，就快要分别了！你怎么这么早就开始感伤了。不过，今天老师们是挺奇怪的，下课时说话的语气好沉重，就像快要中考一样。”我大致向他解释小学的那一句话，他听了之后点点头，也在思考什么。</p>
-<p>此后，看着窗外的浮云，两只鸟看着天空，歌唱着，似乎知道了我们即将放假的喜悦。教室刚搬到一楼时，我便发现那几只鸟，在我们学校的一角有一个小小的家。而我们班，我坐在的位置，恰好是观鸟的好地方。不敢承认上课走神，但着实思考了一番：</p>
-<p>“它们一直生活在这里对吧！它们一直在歌唱对吧！它们，还记得上一届坐在这间教室的学生吗？会记得我们吗？”记得青春电视剧《少年派》中说过：“最可悲的是那些永不相交的平行线。我能和每一个人相识吗。”</p>
-<p>“好了，别难过了，还没到分别的时候呢！”他思考完了，对我笑。</p>
-<p>对啊！还有几个月了。没到分别的日子。就算分开了也不可怕，“人有悲欢离合，月有阴晴圆缺，此事古难全”。不过现在，信息技术这样发达，分开，也不再可怕。</p>
-<p>班里不知谁开了一句玩笑，几声轻笑，能听到几声鸟儿的附和。浮云似乎顿了一下。</p>
-<p>是啊！浮云会记得的，他会记得到过的每一个地方，记得每一处美景；他会记得每一朵云彩，记得每一个笑脸。就像我们会记得每一个人，记得每一声笑。鸟儿也会记得每一届的学生，就像我们都要迎来九年级的学习生活。</p>
-<p>初中三年很快就过去，我相信，分别时都会感伤。但也不那么难过对吗？回忆，有美好的笑容，有爽朗地笑声，有欢快的场面。虽然也会有写错的字，但还是不要涂掉的好，看着自己写错的字，我轻声笑了出来。</p>
-<p>缘分这东西，我不好说。有缘的，感恩下一次再见；无缘的，珍惜已有的回忆。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-        <category>初中</category>
-      </categories>
-      <tags>
-        <tag>初中</tag>
-        <tag>回忆</tag>
+        <tag>cpp</tag>
       </tags>
   </entry>
   <entry>
@@ -282,20 +154,104 @@
       </tags>
   </entry>
   <entry>
-    <title>和云一起</title>
-    <url>/2022/BreatheWithTheCloud/</url>
+    <title>关于我和我的博客</title>
+    <url>/2020/about/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="关于我～"><a href="#关于我～" class="headerlink" title="关于我～"></a>关于我～</h2><div class="note info"><p>Hello，大家好，我是 <strong>椰子耶</strong> 。坐标：<em>天津</em>，是一名大学生。这是我的个人博客，会不时发布一些我写的文章以及生活感悟，希望大家喜欢。</p>
+<p>喜欢航空，not pilot, but Air Traffic Controller！喜欢的游戏-&gt;ぼくは航空管制官３&#x2F;４</p>
+<p>会一点点代码知识，主打方向 <strong>C&#x2F;C++<strong>，想学</strong>Ptyhon</strong>或<strong>Go</strong>。最近听说有关量子编程语言<em>Q#</em> 很感兴趣，希望可以和大家交流！<br><del>其实Js、React也想学……</del></p>
+</div>
+<span id="more"></span>
+
+<h2 id="关于这篇博客"><a href="#关于这篇博客" class="headerlink" title="关于这篇博客"></a>关于这篇博客</h2><p>这是我的个人博客，我日常会使用随笔的方式记录生活，但是我觉得记录下来的不能让它尘封起来，所以开设了这个博客。当然，在我学习编程的道路上了解的知识也会发布在这上面，详情见分类。</p>
+<h2 id="Hexo以及NexT"><a href="#Hexo以及NexT" class="headerlink" title="Hexo以及NexT"></a>Hexo以及NexT</h2><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>正如这个标题，本网站是由Hexo建立的。<a href="https://hexo.io/zh-cn/">Hexo</a>是一个开源的用于建立个人博客的框架，对于Web新手十分友好。<br>所以本网站的代码并不是我编写的[捂脸]。</p>
+<p><del>最关键的是有了Gitee的帮助，这些全部免费，一分钱都没有花！（哦天哪，开源真是个好东西）</del></p>
+<blockquote>
+<p>对于了解过网站的建设流程的同学可以知道，网站需要服务器，而服务器大多需要花钱，但是一个代码托管平台<del>Gitee</del>提供了Pages服务，这个可以帮助你免费在上面建立静态网站。</p>
+</blockquote>
+<p>咳咳，<strong>重来一遍</strong>，最关键的是，有了GitLab和 <del>Cloudfare</del> Vercel的帮助，可以将自己的网站上传到GitLab再到<del>Cloudfare</del> Vercel去部署。</p>
+<p>关于为什么我没有继续用Gitee、Cloudfare这件事。就是说也不想多说了。有时间发一篇对比~</p>
+<h3 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h3><p>关于Hexo有一个很棒的事就是可以自行选择自己喜欢的主题，在这里我选择的是<a href="https://theme-next.js.org/">NexT.Gemini</a>主题.</p>
+<h2 id="我也想建网站！"><a href="#我也想建网站！" class="headerlink" title="我也想建网站！"></a>我也想建网站！</h2><p>这个不要着急啊，<del>假期我会更新一篇文章去说明</del>，<del>有两种方案</del>，我会分别写出教程的～([Doge]就是说看情况吧，网上教程也不少，有时间的话我也会写一遍详细的)</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>about</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++ | 作业 | 星座查询</title>
+    <url>/2023/Constellation/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>plog 与云一起 在天空~</p>
+<p>输入日期，输出对应星座</p>
+<p>实现方法：OOP </p>
+</blockquote>
+<span id="more"></span>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// stdafx.h : 预编译头</span></span><br><span class="line"><span class="meta">#<span class="keyword">pragma</span> once</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Date.h Date类成员声明</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">pragma</span> once</span></span><br><span class="line"><span class="meta">#<span class="keyword">ifndef</span> DATE</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> DATE</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stdafx.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Date</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="type">int</span> m_Month, m_Day, m_fDate;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">FindConsellation</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="built_in">Date</span>() = <span class="keyword">default</span>;</span><br><span class="line">    <span class="built_in">Date</span>(<span class="type">int</span> M, <span class="type">int</span> D);</span><br><span class="line">    <span class="comment">//int m_Consellation = FindConsellation();</span></span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">endif</span></span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//Date.cpp 用于实现Date类中的构造函数与查找功能</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Date.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Date 类的构造函数</span></span><br><span class="line">Date::<span class="built_in">Date</span>(<span class="type">int</span> M, <span class="type">int</span> D)</span><br><span class="line">&#123;</span><br><span class="line">    m_Month = M;            <span class="comment">// 传入初始数值</span></span><br><span class="line">    m_Day = D;</span><br><span class="line">    m_fDate = M * <span class="number">100</span> + D;  <span class="comment">// 转换日期格式</span></span><br><span class="line">                    <span class="comment">// 将日期转换为整数数字如01-25 转换为125</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 针对转换后的格式返回星座对应的数字</span></span><br><span class="line"><span class="comment">// 0-11 水瓶座-魔羯座 按日期排列</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">Date::FindConsellation</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (m_fDate &gt;= <span class="number">120</span> &amp;&amp; m_fDate &lt;= <span class="number">218</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">219</span> &amp;&amp; m_fDate &lt;= <span class="number">320</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">321</span> &amp;&amp; m_fDate &lt;= <span class="number">419</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">420</span> &amp;&amp; m_fDate &lt;= <span class="number">520</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">3</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">521</span> &amp;&amp; m_fDate &lt;= <span class="number">621</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">4</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">622</span> &amp;&amp; m_fDate &lt;= <span class="number">722</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">5</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">723</span> &amp;&amp; m_fDate &lt;= <span class="number">822</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">6</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">823</span> &amp;&amp; m_fDate &lt;= <span class="number">922</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">7</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">923</span> &amp;&amp; m_fDate &lt;= <span class="number">1023</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">8</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">1024</span> &amp;&amp; m_fDate &lt;= <span class="number">1122</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">9</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">1123</span> &amp;&amp; m_fDate &lt;= <span class="number">1221</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> ((m_fDate &gt;= <span class="number">1222</span> &amp;&amp; m_fDate &lt;= <span class="number">1231</span>) || (m_fDate &lt;= <span class="number">119</span> &amp;&amp; m_fDate &gt;= <span class="number">101</span>))</span><br><span class="line">        <span class="keyword">return</span> <span class="number">11</span>;</span><br><span class="line">    <span class="comment">//else if (m_fDate &gt;= 120 &amp;&amp; m_fDate &lt;= 218)</span></span><br><span class="line">      <span class="comment">//  return 0;</span></span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Constellation.cpp : 此文件包含 &quot;main&quot; 函数。程序执行将在此处开始并结束。</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stdafx.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Date.h&quot;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line">string Constellation[<span class="number">12</span>] = &#123; <span class="string">&quot;水瓶座&quot;</span>, <span class="string">&quot;双鱼座&quot;</span>, <span class="string">&quot;白羊座&quot;</span>, <span class="string">&quot;金牛座&quot;</span>, <span class="string">&quot;双子座&quot;</span>, <span class="string">&quot;巨蟹座&quot;</span>, </span><br><span class="line">    <span class="string">&quot;狮子座&quot;</span>, <span class="string">&quot;处女座&quot;</span>, <span class="string">&quot;天秤座&quot;</span>, <span class="string">&quot;天蝎座&quot;</span>, <span class="string">&quot;射手座&quot;</span>, <span class="string">&quot;魔羯座&quot;</span> &#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> mo = <span class="number">0</span>, day = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (mo &lt;= <span class="number">0</span> || mo &gt;= <span class="number">13</span>) </span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Input month: &quot;</span>;</span><br><span class="line">        <span class="keyword">while</span> (!(cin &gt;&gt; mo))</span><br><span class="line">        &#123;</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;Invalid input, please input again! &quot;</span> &lt;&lt; endl &lt;&lt; <span class="string">&quot;Input month: &quot;</span>;</span><br><span class="line">            cin.<span class="built_in">clear</span>();</span><br><span class="line">            cin.<span class="built_in">ignore</span>(numeric_limits&lt;streamsize&gt;::<span class="built_in">max</span>(), <span class="string">&#x27;\n&#x27;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (mo &lt;= <span class="number">0</span> || mo &gt;= <span class="number">13</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;Invalid input, please input again: &quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (day &lt;= <span class="number">0</span> || day &gt;= <span class="number">31</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Input day: &quot;</span>;</span><br><span class="line">        <span class="keyword">while</span> (!(cin &gt;&gt; day))</span><br><span class="line">        &#123;</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;Invalid input, please input again: &quot;</span> &lt;&lt; endl &lt;&lt; <span class="string">&quot;Input month: &quot;</span>;</span><br><span class="line">            cin.<span class="built_in">clear</span>();</span><br><span class="line">            cin.<span class="built_in">ignore</span>(numeric_limits&lt;streamsize&gt;::<span class="built_in">max</span>(), <span class="string">&#x27;\n&#x27;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (day &lt;= <span class="number">0</span> || day &gt;= <span class="number">31</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;Invalid input, please input again: &quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">Date <span class="title">date</span><span class="params">(mo, day)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 检验输入数据是否合法</span></span><br><span class="line">    <span class="keyword">if</span> (date.<span class="built_in">FindConsellation</span>() != <span class="number">-1</span>)</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;你的星座是: &quot;</span> &lt;&lt; Constellation[date.<span class="built_in">FindConsellation</span>()] &lt;&lt; endl;</span><br><span class="line">    <span class="comment">//else</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//system(&quot;pause&quot;);</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>IT</category>
+        <category>CPlusPlus</category>
+        <category>作业</category>
+      </categories>
+      <tags>
+        <tag>cpp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>rar恢复记录</title>
+    <url>/2022/rarRepair/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>在网上上传下载了12个压缩包（一共100多G）之后不出意外的遇到了 <code>CRC Error</code> ，而幸运的是压缩包里有还原记录，那么下面就是自己建压缩包的时候添加还原记录的方法：</p>
 </blockquote>
 <span id="more"></span>
 
-<p><img src="/2022/BreatheWithTheCloud/IMG_1936.jpeg"></p>
-<div class="tabs" id="美景"><ul class="nav-tabs"><li class="tab active"><a href="#美景-1">下午</a></li><li class="tab"><a href="#美景-2">彩云&天空</a></li><li class="tab"><a href="#美景-3">黄昏</a></li></ul><div class="tab-content"><div class="tab-pane active" id="美景-1"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1928.jpeg"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1935.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1937.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1941.jpeg"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1926.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1943.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1934.jpeg"></div></div></div></div><div class="tab-pane" id="美景-2"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1949.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1960.jpeg"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1963.jpeg"></div></div></div>
+<p>在 <code>WinRAR</code> 软件中添加新压缩包，右侧压缩选项勾选 <code>添加恢复记录</code> ，如图：<br><img src="/2022/rarRepair/01.png" alt="01.png"></p>
+<p>点击上方 <code>高级</code> ，还可以选择恢复记录大小，如图：<br><img src="/2022/rarRepair/02.png" alt="02.png"></p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>rar</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>上半年plog——光与影</title>
+    <url>/2022/LifeCapture/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info"><p>应昂首</p>
+</div>
+<span id="more"></span>
 
-<p><img src="/2022/BreatheWithTheCloud/IMG_1957.jpeg"></p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1978.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1980.jpeg"></div></div></div></div><div class="tab-pane" id="美景-3"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1944.jpeg"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1962.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1964.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1973.jpeg"></div></div></div></div></div></div>
+<p><img src="/2022/LifeCapture/06w.jpeg"></p>
+<div class="note info"><p>这条还是寒假的时候拍的</p>
+</div>
 
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/LifeCapture/01w.jpeg"></div></div></div>
 
+<div class="note info"><p>公园的美景</p>
+</div>
+
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/LifeCapture/02w.jpeg"></div><div class="group-picture-column"><img src="/2022/LifeCapture/03s.jpeg"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/LifeCapture/04w.jpeg"></div></div></div>
+
+<div class="note info"><p>月亮</p>
+</div>
+
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/LifeCapture/05w.jpeg"></div><div class="group-picture-column"><img src="/2022/LifeCapture/07w.jpeg"></div></div></div>
+
+<div class="note info"><p>光影</p>
+</div>
+
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/LifeCapture/08h.jpeg"></div><div class="group-picture-column"><img src="/2022/LifeCapture/09h.jpeg"></div></div></div>
+
+<div class="note info"><h3 id="快高三了，希望好景在心中，如封面，应昂首，待佳期。"><a href="#快高三了，希望好景在心中，如封面，应昂首，待佳期。" class="headerlink" title="快高三了，希望好景在心中，如封面，应昂首，待佳期。"></a>快高三了，希望好景在心中，如封面，应昂首，待佳期。</h3></div>
 ]]></content>
       <categories>
         <category>生活</category>
@@ -303,24 +259,6 @@
       </categories>
       <tags>
         <tag>plog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++ | 排序 | 冒泡排序</title>
-    <url>/2022/BubbleSort/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>外循环 <code>i</code> 一共循环 <code>数组总数</code> 次<br>内循环 <code>j</code> 内逐个比对 <code>总数-i-1</code> 次</p>
-</blockquote>
-<span id="more"></span>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span> </span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//创建数组 print</span></span><br><span class="line">    <span class="type">int</span> arr[<span class="number">9</span>] = &#123; <span class="number">0</span> &#125;;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>; i&lt;<span class="number">9</span>; i++) </span><br><span class="line">        cin &gt;&gt; arr[i];</span><br><span class="line">        </span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;您输入的是: &quot;</span> ;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>; i&lt;<span class="number">9</span>; i++) </span><br><span class="line">        cout &lt;&lt; arr[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">    </span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;下面开始排序：&quot;</span> &lt;&lt; endl;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//冒泡排序 操作9-1次（总数-1)</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>; i&lt;<span class="number">8</span>; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//对比i-1次</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j=<span class="number">0</span>; j&lt;<span class="number">8</span>-i; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(arr[j] &gt; arr[j+<span class="number">1</span>])</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="type">int</span> temp = arr[j];</span><br><span class="line">                arr[j]=arr[j+<span class="number">1</span>];</span><br><span class="line">                arr[j+<span class="number">1</span>]=temp;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> k=<span class="number">0</span>; k&lt;<span class="number">9</span>; k++) </span><br><span class="line">            cout &lt;&lt; arr[k] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">        cout &lt;&lt; endl;        </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>IT</category>
-        <category>CPlusPlus</category>
-      </categories>
-      <tags>
-        <tag>cpp</tag>
       </tags>
   </entry>
   <entry>
@@ -382,6 +320,59 @@
       </tags>
   </entry>
   <entry>
+    <title>九年级的小情绪</title>
+    <url>/2020/GraduationMemorial/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p><strong>致初中的点滴生活</strong></p>
+</blockquote>
+<p>快放学了。<br>其实放学是件很令人高兴的事，心却不能像浮云一样轻盈——九年级了。虽不是下半学期，但上半学期的最后一天还是很难过的。</p>
+<span id="more"></span>
+
+<p>近一个月，考试、讲卷子，考试、讲卷子……像是加了一个“while(1);”循环。回家的作业也无非是卷子。自然，对放学这样的事也提不起兴趣。不过还好，每次做的卷子都是不一样的，还不算枯燥。</p>
+<p>最后一节课，老师讲期末考试要求。老师在讲，我们的心早不知在何处。浮云在飘，落叶的梦亦不知落何处。我抬头望着天空，心中却是不一样的境界。胡乱的用铅笔记下老师所讲的内容，结果只是错字一堆——像个小学生。</p>
+<p>找橡皮，想要擦掉。找不到橡皮，又觉得没什么好擦的。错字也挺好看的。心情遇瓶颈之时想到美术老师曾说过的话：“手里经常拿着什么东西是空虚的表现。”大悟似的在手心找到橡皮，甩手扔进笔袋，继续望着浮云在飘。</p>
+<p>小学时一个非常要好的朋友曾再快毕业时对我说过这样的话“快毕业了，咱们就要分开了……”不知为什么，看着浮云，想着这句话，泪水充满了眼眶，但又不忍落下。窗外浮云继续飘着，浮云在赶路，它会记得所到过的每一个地方的美景吗？会记得遇到的每一朵云彩的笑容吗？</p>
+<p>“怎么了？压力大？”“没，胡思乱想……”同桌没再说什么。过了一会，他继续说“没想到，九年级这么快！”“更没想到初中生活也过着这么快！”我若有所思的答道，而后意识到自己好像不应该将这样的悲伤情绪传达给其他人。</p>
+<p>“是啊，就快要分别了！你怎么这么早就开始感伤了。不过，今天老师们是挺奇怪的，下课时说话的语气好沉重，就像快要中考一样。”我大致向他解释小学的那一句话，他听了之后点点头，也在思考什么。</p>
+<p>此后，看着窗外的浮云，两只鸟看着天空，歌唱着，似乎知道了我们即将放假的喜悦。教室刚搬到一楼时，我便发现那几只鸟，在我们学校的一角有一个小小的家。而我们班，我坐在的位置，恰好是观鸟的好地方。不敢承认上课走神，但着实思考了一番：</p>
+<p>“它们一直生活在这里对吧！它们一直在歌唱对吧！它们，还记得上一届坐在这间教室的学生吗？会记得我们吗？”记得青春电视剧《少年派》中说过：“最可悲的是那些永不相交的平行线。我能和每一个人相识吗。”</p>
+<p>“好了，别难过了，还没到分别的时候呢！”他思考完了，对我笑。</p>
+<p>对啊！还有几个月了。没到分别的日子。就算分开了也不可怕，“人有悲欢离合，月有阴晴圆缺，此事古难全”。不过现在，信息技术这样发达，分开，也不再可怕。</p>
+<p>班里不知谁开了一句玩笑，几声轻笑，能听到几声鸟儿的附和。浮云似乎顿了一下。</p>
+<p>是啊！浮云会记得的，他会记得到过的每一个地方，记得每一处美景；他会记得每一朵云彩，记得每一个笑脸。就像我们会记得每一个人，记得每一声笑。鸟儿也会记得每一届的学生，就像我们都要迎来九年级的学习生活。</p>
+<p>初中三年很快就过去，我相信，分别时都会感伤。但也不那么难过对吗？回忆，有美好的笑容，有爽朗地笑声，有欢快的场面。虽然也会有写错的字，但还是不要涂掉的好，看着自己写错的字，我轻声笑了出来。</p>
+<p>缘分这东西，我不好说。有缘的，感恩下一次再见；无缘的，珍惜已有的回忆。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+        <category>初中</category>
+      </categories>
+      <tags>
+        <tag>初中</tag>
+        <tag>回忆</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于批处理文件的第一行</title>
+    <url>/2022/batFile/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>关于 <code>@echo off</code> 那点事</p>
+</blockquote>
+<span id="more"></span>
+
+<p><code>echo off</code> :关闭回显，不显示正在执行的批处理命令及执行的结果等。</p>
+<p><code>@</code> :不显示本条命令</p>
+<p><code>@echo off</code> 即全部不显示</p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>bat</tag>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>嘘！别说话！</title>
     <url>/2020/Be%20queit!/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>地理、生物会考模拟结束，每个同学都“热热闹闹”地讨论题目。一道答案显而易见的选择题也要争论半天。当然，也不缺向我一样考完试大脑一片空白瞎凑热闹的。 </p>
@@ -421,23 +412,27 @@
       </tags>
   </entry>
   <entry>
-    <title>关于批处理文件的第一行</title>
-    <url>/2022/batFile/</url>
+    <title>和云一起</title>
+    <url>/2022/BreatheWithTheCloud/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>关于 <code>@echo off</code> 那点事</p>
+<p>plog 与云一起 在天空~</p>
 </blockquote>
 <span id="more"></span>
 
-<p><code>echo off</code> :关闭回显，不显示正在执行的批处理命令及执行的结果等。</p>
-<p><code>@</code> :不显示本条命令</p>
-<p><code>@echo off</code> 即全部不显示</p>
+<p><img src="/2022/BreatheWithTheCloud/IMG_1936.jpeg"></p>
+<div class="tabs" id="美景"><ul class="nav-tabs"><li class="tab active"><a href="#美景-1">下午</a></li><li class="tab"><a href="#美景-2">彩云&天空</a></li><li class="tab"><a href="#美景-3">黄昏</a></li></ul><div class="tab-content"><div class="tab-pane active" id="美景-1"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1928.jpeg"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1935.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1937.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1941.jpeg"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1926.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1943.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1934.jpeg"></div></div></div></div><div class="tab-pane" id="美景-2"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1949.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1960.jpeg"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1963.jpeg"></div></div></div>
+
+<p><img src="/2022/BreatheWithTheCloud/IMG_1957.jpeg"></p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1978.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1980.jpeg"></div></div></div></div><div class="tab-pane" id="美景-3"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1944.jpeg"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1962.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1964.jpeg"></div><div class="group-picture-column"><img src="/2022/BreatheWithTheCloud/IMG_1973.jpeg"></div></div></div></div></div></div>
+
+
 ]]></content>
       <categories>
-        <category>IT</category>
+        <category>生活</category>
+        <category>plog</category>
       </categories>
       <tags>
-        <tag>bat</tag>
-        <tag>cmd</tag>
+        <tag>plog</tag>
       </tags>
   </entry>
   <entry>
@@ -520,18 +515,45 @@
       </tags>
   </entry>
   <entry>
+    <title>远方的声音落下，几句在心中？</title>
+    <url>/2022/SFH/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p><em>大概是我又以世俗的目光去理解一些事了，我请你本就与金钱云云无关，不是吗？ ——路遇小事，又因近日网课感慨良多而作</em></p>
+</blockquote>
+<span id="more"></span>
+
+<p>最近很久没有更新了，开学只是一部分原因，但是开学后没上了两周的课就回家网课，确实打乱了我很多打算。</p>
+<p>就像放假一样，但未免都太“自律”了些。但我总不愿称其为网课。<strong>与学校藕断丝连，顾此失彼，隔着屏幕，远方的声音落下，几句在心中，又几句留下痕迹。</strong></p>
+<p>周四，班里同学妈妈给老师发微信，让老师提醒自己孩子把东西都带回家，以备万一。而老师恰好在和我聊天。那天，放学后，我和几个“了解内情”的同学收拾东西，书包越来越沉，左手拿起两三本，右手拿起几本，斟酌一番又到都得用，只好把塞不下的书包再“塞一塞”。</p>
+<p>用力拉上拉链发出的声响，如书包在怨诉，心中坠着一块石头，背上又背上书包……返学十五分钟后的学校不再是学校，像一个被人敬仰又被遗忘的地标性建筑，夜晚灯光熄了，无书声，无欢声笑语。</p>
+<p>只是，这种情况竟要持续那么久。还好，藏班的同学依然守在学校。我试着去想，那空荡荡的校园。</p>
+<p>网课第三周已经圆满过去了。或近或远，若即若离，一句想你却只像是羽毛无墨而书，或叶被风吹落地无声，听着只觉轻浮无定数，不知说者有心无言难开口。</p>
+<p>这段时间里，我的手机卡到连小程序都打不开——日常习惯不好，相册几几乎没有整理。6000多张照片，从初三至今，或许对我手机太过沉重，不像记忆，忘了，便过去了，于是就释怀了，但是却留下了痕迹，拂袖擦去尘土，谁的袖口上丝毫不染，又有谁心头已落了尘，待一场洁白雪，一场倾盆雨。</p>
+<p>又见新增，还在期待着开学不多时。</p>
+<p>–未完，待更新–</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>疫情</tag>
+        <tag>网课</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>快开学了</title>
     <url>/2022/BacktoSchool/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
 <p>今日BGM推荐：（来源QQ音乐）</p>
 </blockquote>
 
-        <div id="aplayer-mOCoYfti" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-kcWqwlTS" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-mOCoYfti"),
+            element: document.getElementById("aplayer-kcWqwlTS"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -597,21 +619,6 @@
       </tags>
   </entry>
   <entry>
-    <title>校验文件哈希值</title>
-    <url>/2022/CheckHash/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>查看文件校验码</p>
-<span id="more"></span>
-<p>使用 <code>PowerShell</code> 或 <code>cmd</code> 都可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">certutil -hashfile [file] [MD5/SHA1/SHA256...]</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>MD5</tag>
-        <tag>SHA</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>雪下的路与路上的雪</title>
     <url>/2022/WalkWithSnow/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
@@ -657,6 +664,108 @@
       </tags>
   </entry>
   <entry>
+    <title>植物的结构与功能</title>
+    <url>/2023/StrcFuncPlant/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>普通生物学 2.2</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="植物的器官"><a href="#植物的器官" class="headerlink" title="植物的器官"></a>植物的器官</h2><ul>
+<li>营养器官<ul>
+<li>叶 Leaf</li>
+<li>茎 Shoot</li>
+<li>根 Root</li>
+</ul>
+</li>
+<li>生殖器官<ul>
+<li>花 Flower</li>
+<li>果实 Fruit</li>
+<li>种子 Seed</li>
+</ul>
+</li>
+</ul>
+<h3 id="根-Root"><a href="#根-Root" class="headerlink" title="根 Root"></a>根 Root</h3><h4 id="根的主要功能"><a href="#根的主要功能" class="headerlink" title="根的主要功能"></a>根的主要功能</h4><blockquote>
+<p>具有<strong>固着和支持</strong>作用<br><strong>吸收</strong>水、二氧化碳及溶解于水中的无机盐<br><strong>储藏合成</strong>作用<br>其它：呼吸、繁殖, etc</p>
+</blockquote>
+<h4 id="根的形态"><a href="#根的形态" class="headerlink" title="根的形态"></a>根的形态</h4><ul>
+<li>定根<ul>
+<li>主根 Main root<br>  由胚根生长出来的 ^6fd268</li>
+<li>侧根 Lateral root<br> 主根生长到一定程度就向后生长出许多侧根</li>
+</ul>
+</li>
+<li>不定根 Adventitious root<br>  在根、茎、老根或胚轴上生出的根  ^59e736</li>
+<li>Examples ^ff827b<ul>
+<li>玉米的支持根</li>
+<li>萝卜的贮藏根</li>
+<li>榕树的气生根</li>
+<li>何首乌的块根</li>
+<li>红树林的呼吸根</li>
+<li>热带雨林中的板根</li>
+</ul>
+</li>
+</ul>
+<h3 id="茎-Shoot"><a href="#茎-Shoot" class="headerlink" title="茎 Shoot"></a>茎 Shoot</h3><blockquote>
+<p>茎是植物生长在地上部的营养器官，其上着生叶、花和果实<br>茎通常是呈圆柱形，少数其它形状</p>
+</blockquote>
+<p>^0f24d7</p>
+<ul>
+<li>茎包括芽、节、节间、枝条以及皮孔</li>
+<li>芽包括顶芽和侧芽（叶腋 内着生）<ul>
+<li>节：叶片的着生处  </li>
+<li>节间：两节之间的位置 </li>
+<li>叶痕：叶子脱落后，叶柄 在茎上留下的痕迹 </li>
+<li>皮孔：木质茎上交换气体的通道 （<em>杨树的皮孔有特点</em>）</li>
+</ul>
+</li>
+<li>通常具有<strong>顶端优势</strong></li>
+</ul>
+<h4 id="茎的主要功能"><a href="#茎的主要功能" class="headerlink" title="茎的主要功能"></a>茎的主要功能</h4><ul>
+<li><strong>输导作用</strong></li>
+<li>支持作用：伸展枝、叶、花、果，利于光合作用、传粉和果实传播</li>
+<li>贮藏作用：鳞茎、块茎、球茎、根状茎等贮存大量养料</li>
+<li>繁殖作用：变态茎的自然营养繁殖；能产生不定芽和不定根，扦插、压条、嫁接等</li>
+<li>光合作用 e.g. 仙人掌</li>
+</ul>
+<h4 id="茎的形态分类"><a href="#茎的形态分类" class="headerlink" title="茎的形态分类"></a>茎的形态分类</h4><ul>
+<li>直立茎</li>
+<li>匍匐茎（草莓）</li>
+<li>攀缘茎（爬山虎）</li>
+<li>缠绕茎（牵牛花）</li>
+<li>球茎（荸荠）</li>
+<li>根状茎（荷花）</li>
+<li>鳞茎（百合）</li>
+<li>块茎（土豆）</li>
+</ul>
+<h4 id="块茎与块根的比较"><a href="#块茎与块根的比较" class="headerlink" title="块茎与块根的比较"></a>块茎与块根的比较</h4><ul>
+<li>块茎<br>  [[#^0f24d7]]茎的形态 节&amp;节间<br>  [[#茎的主要功能]]</li>
+<li>块根<br>  [[#根的形态]]<br>  根的来源[[#^6fd268]][[#^59e736]]<br>  [[#根的主要功能]]</li>
+</ul>
+<h3 id="叶"><a href="#叶" class="headerlink" title="叶"></a>叶</h3>]]></content>
+      <categories>
+        <category>生物 - 植物学</category>
+      </categories>
+      <tags>
+        <tag>植物</tag>
+        <tag>结构与功能</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>校验文件哈希值</title>
+    <url>/2022/CheckHash/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>查看文件校验码</p>
+<span id="more"></span>
+<p>使用 <code>PowerShell</code> 或 <code>cmd</code> 都可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">certutil -hashfile [file] [MD5/SHA1/SHA256...]</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>MD5</tag>
+        <tag>SHA</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Manim】椭圆基础 (视频)</title>
     <url>/2022/EllipseBasic/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><iframe src="//player.bilibili.com/player.html?aid=380553427&bvid=BV1qZ4y1S7nj&cid=482931291&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
@@ -679,115 +788,6 @@
         <tag>Manim</tag>
         <tag>数学</tag>
         <tag>椭圆</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>上半年plog——光与影</title>
-    <url>/2022/LifeCapture/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info"><p>应昂首</p>
-</div>
-<span id="more"></span>
-
-<p><img src="/2022/LifeCapture/06w.jpeg"></p>
-<div class="note info"><p>这条还是寒假的时候拍的</p>
-</div>
-
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/LifeCapture/01w.jpeg"></div></div></div>
-
-<div class="note info"><p>公园的美景</p>
-</div>
-
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/LifeCapture/02w.jpeg"></div><div class="group-picture-column"><img src="/2022/LifeCapture/03s.jpeg"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/LifeCapture/04w.jpeg"></div></div></div>
-
-<div class="note info"><p>月亮</p>
-</div>
-
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/LifeCapture/05w.jpeg"></div><div class="group-picture-column"><img src="/2022/LifeCapture/07w.jpeg"></div></div></div>
-
-<div class="note info"><p>光影</p>
-</div>
-
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/2022/LifeCapture/08h.jpeg"></div><div class="group-picture-column"><img src="/2022/LifeCapture/09h.jpeg"></div></div></div>
-
-<div class="note info"><h3 id="快高三了，希望好景在心中，如封面，应昂首，待佳期。"><a href="#快高三了，希望好景在心中，如封面，应昂首，待佳期。" class="headerlink" title="快高三了，希望好景在心中，如封面，应昂首，待佳期。"></a>快高三了，希望好景在心中，如封面，应昂首，待佳期。</h3></div>
-]]></content>
-      <categories>
-        <category>生活</category>
-        <category>plog</category>
-      </categories>
-      <tags>
-        <tag>plog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>远方的声音落下，几句在心中？</title>
-    <url>/2022/SFH/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p><em>大概是我又以世俗的目光去理解一些事了，我请你本就与金钱云云无关，不是吗？ ——路遇小事，又因近日网课感慨良多而作</em></p>
-</blockquote>
-<span id="more"></span>
-
-<p>最近很久没有更新了，开学只是一部分原因，但是开学后没上了两周的课就回家网课，确实打乱了我很多打算。</p>
-<p>就像放假一样，但未免都太“自律”了些。但我总不愿称其为网课。<strong>与学校藕断丝连，顾此失彼，隔着屏幕，远方的声音落下，几句在心中，又几句留下痕迹。</strong></p>
-<p>周四，班里同学妈妈给老师发微信，让老师提醒自己孩子把东西都带回家，以备万一。而老师恰好在和我聊天。那天，放学后，我和几个“了解内情”的同学收拾东西，书包越来越沉，左手拿起两三本，右手拿起几本，斟酌一番又到都得用，只好把塞不下的书包再“塞一塞”。</p>
-<p>用力拉上拉链发出的声响，如书包在怨诉，心中坠着一块石头，背上又背上书包……返学十五分钟后的学校不再是学校，像一个被人敬仰又被遗忘的地标性建筑，夜晚灯光熄了，无书声，无欢声笑语。</p>
-<p>只是，这种情况竟要持续那么久。还好，藏班的同学依然守在学校。我试着去想，那空荡荡的校园。</p>
-<p>网课第三周已经圆满过去了。或近或远，若即若离，一句想你却只像是羽毛无墨而书，或叶被风吹落地无声，听着只觉轻浮无定数，不知说者有心无言难开口。</p>
-<p>这段时间里，我的手机卡到连小程序都打不开——日常习惯不好，相册几几乎没有整理。6000多张照片，从初三至今，或许对我手机太过沉重，不像记忆，忘了，便过去了，于是就释怀了，但是却留下了痕迹，拂袖擦去尘土，谁的袖口上丝毫不染，又有谁心头已落了尘，待一场洁白雪，一场倾盆雨。</p>
-<p>又见新增，还在期待着开学不多时。</p>
-<p>–未完，待更新–</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>疫情</tag>
-        <tag>网课</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++ | 检查输入非int</title>
-    <url>/2023/InputCheckNotInt/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>为了防止向 int 类型输入字母等非法内容，可以使用以下方式输入：</p>
-</blockquote>
-<span id="more"></span>
-<div class="note warning"><h3 id="需要注意！"><a href="#需要注意！" class="headerlink" title="需要注意！"></a>需要注意！</h3><p>某些情况下需要 <code>#include &lt;limit&gt;</code></p>
-</div>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> (!(cin &gt;&gt; i))</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Invalid input, please input again: &quot;</span> ;</span><br><span class="line">    cin.<span class="built_in">clear</span>();</span><br><span class="line">    cin.<span class="built_in">ignore</span>(numeric_limits&lt;streamsize&gt;::<span class="built_in">max</span>(), <span class="string">&#x27;\n&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>IT</category>
-        <category>CPlusPlus</category>
-      </categories>
-      <tags>
-        <tag>cpp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++ | 作业 | 星座查询</title>
-    <url>/2023/Constellation/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>输入日期，输出对应星座</p>
-<p>实现方法：OOP </p>
-</blockquote>
-<span id="more"></span>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// stdafx.h : 预编译头</span></span><br><span class="line"><span class="meta">#<span class="keyword">pragma</span> once</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Date.h Date类成员声明</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">pragma</span> once</span></span><br><span class="line"><span class="meta">#<span class="keyword">ifndef</span> DATE</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> DATE</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stdafx.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Date</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="type">int</span> m_Month, m_Day, m_fDate;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">FindConsellation</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="built_in">Date</span>() = <span class="keyword">default</span>;</span><br><span class="line">    <span class="built_in">Date</span>(<span class="type">int</span> M, <span class="type">int</span> D);</span><br><span class="line">    <span class="comment">//int m_Consellation = FindConsellation();</span></span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">endif</span></span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//Date.cpp 用于实现Date类中的构造函数与查找功能</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Date.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Date 类的构造函数</span></span><br><span class="line">Date::<span class="built_in">Date</span>(<span class="type">int</span> M, <span class="type">int</span> D)</span><br><span class="line">&#123;</span><br><span class="line">    m_Month = M;            <span class="comment">// 传入初始数值</span></span><br><span class="line">    m_Day = D;</span><br><span class="line">    m_fDate = M * <span class="number">100</span> + D;  <span class="comment">// 转换日期格式</span></span><br><span class="line">                    <span class="comment">// 将日期转换为整数数字如01-25 转换为125</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 针对转换后的格式返回星座对应的数字</span></span><br><span class="line"><span class="comment">// 0-11 水瓶座-魔羯座 按日期排列</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">Date::FindConsellation</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (m_fDate &gt;= <span class="number">120</span> &amp;&amp; m_fDate &lt;= <span class="number">218</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">219</span> &amp;&amp; m_fDate &lt;= <span class="number">320</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">321</span> &amp;&amp; m_fDate &lt;= <span class="number">419</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">420</span> &amp;&amp; m_fDate &lt;= <span class="number">520</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">3</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">521</span> &amp;&amp; m_fDate &lt;= <span class="number">621</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">4</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">622</span> &amp;&amp; m_fDate &lt;= <span class="number">722</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">5</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">723</span> &amp;&amp; m_fDate &lt;= <span class="number">822</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">6</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">823</span> &amp;&amp; m_fDate &lt;= <span class="number">922</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">7</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">923</span> &amp;&amp; m_fDate &lt;= <span class="number">1023</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">8</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">1024</span> &amp;&amp; m_fDate &lt;= <span class="number">1122</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">9</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (m_fDate &gt;= <span class="number">1123</span> &amp;&amp; m_fDate &lt;= <span class="number">1221</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> ((m_fDate &gt;= <span class="number">1222</span> &amp;&amp; m_fDate &lt;= <span class="number">1231</span>) || (m_fDate &lt;= <span class="number">119</span> &amp;&amp; m_fDate &gt;= <span class="number">101</span>))</span><br><span class="line">        <span class="keyword">return</span> <span class="number">11</span>;</span><br><span class="line">    <span class="comment">//else if (m_fDate &gt;= 120 &amp;&amp; m_fDate &lt;= 218)</span></span><br><span class="line">      <span class="comment">//  return 0;</span></span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Constellation.cpp : 此文件包含 &quot;main&quot; 函数。程序执行将在此处开始并结束。</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stdafx.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Date.h&quot;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line">string Constellation[<span class="number">12</span>] = &#123; <span class="string">&quot;水瓶座&quot;</span>, <span class="string">&quot;双鱼座&quot;</span>, <span class="string">&quot;白羊座&quot;</span>, <span class="string">&quot;金牛座&quot;</span>, <span class="string">&quot;双子座&quot;</span>, <span class="string">&quot;巨蟹座&quot;</span>, </span><br><span class="line">    <span class="string">&quot;狮子座&quot;</span>, <span class="string">&quot;处女座&quot;</span>, <span class="string">&quot;天秤座&quot;</span>, <span class="string">&quot;天蝎座&quot;</span>, <span class="string">&quot;射手座&quot;</span>, <span class="string">&quot;魔羯座&quot;</span> &#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> mo = <span class="number">0</span>, day = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (mo &lt;= <span class="number">0</span> || mo &gt;= <span class="number">13</span>) </span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Input month: &quot;</span>;</span><br><span class="line">        <span class="keyword">while</span> (!(cin &gt;&gt; mo))</span><br><span class="line">        &#123;</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;Invalid input, please input again! &quot;</span> &lt;&lt; endl &lt;&lt; <span class="string">&quot;Input month: &quot;</span>;</span><br><span class="line">            cin.<span class="built_in">clear</span>();</span><br><span class="line">            cin.<span class="built_in">ignore</span>(numeric_limits&lt;streamsize&gt;::<span class="built_in">max</span>(), <span class="string">&#x27;\n&#x27;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (mo &lt;= <span class="number">0</span> || mo &gt;= <span class="number">13</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;Invalid input, please input again: &quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (day &lt;= <span class="number">0</span> || day &gt;= <span class="number">31</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Input day: &quot;</span>;</span><br><span class="line">        <span class="keyword">while</span> (!(cin &gt;&gt; day))</span><br><span class="line">        &#123;</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;Invalid input, please input again: &quot;</span> &lt;&lt; endl &lt;&lt; <span class="string">&quot;Input month: &quot;</span>;</span><br><span class="line">            cin.<span class="built_in">clear</span>();</span><br><span class="line">            cin.<span class="built_in">ignore</span>(numeric_limits&lt;streamsize&gt;::<span class="built_in">max</span>(), <span class="string">&#x27;\n&#x27;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (day &lt;= <span class="number">0</span> || day &gt;= <span class="number">31</span>)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;Invalid input, please input again: &quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">Date <span class="title">date</span><span class="params">(mo, day)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 检验输入数据是否合法</span></span><br><span class="line">    <span class="keyword">if</span> (date.<span class="built_in">FindConsellation</span>() != <span class="number">-1</span>)</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;你的星座是: &quot;</span> &lt;&lt; Constellation[date.<span class="built_in">FindConsellation</span>()] &lt;&lt; endl;</span><br><span class="line">    <span class="comment">//else</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//system(&quot;pause&quot;);</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>IT</category>
-        <category>CPlusPlus</category>
-        <category>作业</category>
-      </categories>
-      <tags>
-        <tag>cpp</tag>
       </tags>
   </entry>
 </search>
