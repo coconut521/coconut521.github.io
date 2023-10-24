@@ -3,11 +3,13 @@
   <entry>
     <title>植物的结构与功能</title>
     <url>/2023/StrcFuncPlant/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="植物的器官"><a href="#植物的器官" class="headerlink" title="植物的器官"></a>植物的器官</h2><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="植物的器官"><a href="#植物的器官" class="headerlink" title="植物的器官"></a>植物的器官</h2><span id="more"></span>
+
+<ul>
 <li>营养器官<ul>
 <li>叶 Leaf</li>
 <li>茎 Shoot</li>
-<li>根 Root<span id="more"></span></li>
+<li>根 Root</li>
 </ul>
 </li>
 <li>生殖器官<ul>
@@ -75,7 +77,7 @@
 </ul>
 <h3 id="叶"><a href="#叶" class="headerlink" title="叶"></a>叶</h3>]]></content>
       <categories>
-        <category>植物学</category>
+        <category>生物 - 植物学</category>
       </categories>
       <tags>
         <tag>植物</tag>
@@ -103,7 +105,7 @@
 <h2 id="我也想建网站！"><a href="#我也想建网站！" class="headerlink" title="我也想建网站！"></a>我也想建网站！</h2><p>这个不要着急啊，<del>假期我会更新一篇文章去说明</del>，<del>有两种方案</del>，我会分别写出教程的～([Doge]就是说看情况吧，网上教程也不少，有时间的话我也会写一遍详细的)</p>
 ]]></content>
       <categories>
-        <category>about</category>
+        <category>生活</category>
       </categories>
       <tags>
         <tag>about</tag>
@@ -166,7 +168,7 @@
 <p>缘分这东西，我不好说。有缘的，感恩下一次再见；无缘的，珍惜已有的回忆。</p>
 ]]></content>
       <categories>
-        <category>文章</category>
+        <category>生活</category>
         <category>初中</category>
       </categories>
       <tags>
@@ -279,6 +281,7 @@
 ]]></content>
       <categories>
         <category>生活</category>
+        <category>plog</category>
       </categories>
       <tags>
         <tag>plog</tag>
@@ -389,8 +392,8 @@
 <p>旅行在梦中的人</p>
 ]]></content>
       <categories>
-        <category>文章</category>
-        <category>初中</category>
+        <category>生活</category>
+        <category>随笔</category>
       </categories>
       <tags>
         <tag>初中</tag>
@@ -497,12 +500,12 @@
     <url>/2022/BacktoSchool/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今日BGM推荐：（来源QQ音乐）</p>
 
-        <div id="aplayer-nXpxvRyr" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-VKgOHbTi" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-nXpxvRyr"),
+            element: document.getElementById("aplayer-VKgOHbTi"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -535,6 +538,7 @@
 ]]></content>
       <categories>
         <category>生活</category>
+        <category>高中</category>
       </categories>
       <tags>
         <tag>开学季</tag>
@@ -559,7 +563,7 @@
 <p>确切的消息还没有来，他还在想，想着一会想累了，就该去洗澡睡觉了。<strong>人的一生不应该多思考吗？</strong></p>
 ]]></content>
       <categories>
-        <category>文章</category>
+        <category>生活</category>
         <category>疫情</category>
       </categories>
       <tags>
@@ -618,6 +622,7 @@
 ]]></content>
       <categories>
         <category>生活</category>
+        <category>随笔</category>
       </categories>
       <tags>
         <tag>雪</tag>
@@ -683,6 +688,7 @@
 ]]></content>
       <categories>
         <category>生活</category>
+        <category>plog</category>
       </categories>
       <tags>
         <tag>plog</tag>
@@ -706,6 +712,7 @@
 ]]></content>
       <categories>
         <category>生活</category>
+        <category>随笔</category>
       </categories>
       <tags>
         <tag>疫情</tag>
@@ -730,7 +737,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Cpp作业 | 星座查询</title>
+    <title>C++ | 作业 | 星座查询</title>
     <url>/2023/Constellation/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>输入日期，输出对应星座</p>
 <p>实现方法：OOP </p>
