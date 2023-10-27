@@ -40,7 +40,8 @@
 <p>由于程序陷入死循环会导致无法正常结束，并占用计算机资源，因此不推荐这样写，如有需要，尽量使用正常的表达式，或添加 <code>break;</code> 跳出循环.</p>
 </div>
 
-<h2 id="代码框架解释"><a href="#代码框架解释" class="headerlink" title="代码框架解释"></a>代码框架解释</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span>     <span class="comment">// 调用 iostream 这个头文件，在这个头文件里写好了 cout cin endl 等函数</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;    <span class="comment">// 为了防止名字冲突，将 cout cin endl 等写在 std 命名空间里面</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span>              <span class="comment">// 一个 C++ 项目可心包含多个函数，而程序从 main 函数开始运行</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);    <span class="comment">// 让程序结束前暂停 便于观察输出结果</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;           <span class="comment">// 程序在这里结束， 如果前面的代码中有循环或判断或恰当时刻需要提前结束,</span></span><br><span class="line">                        <span class="comment">// 可以前面再写一个，（可以写多个）</span></span><br><span class="line">                        <span class="comment">// 但结尾必须写一个</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+<h2 id="代码框架解释"><a href="#代码框架解释" class="headerlink" title="代码框架解释"></a>代码框架解释</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span>     <span class="comment">// 调用 iostream 这个头文件，在这个头文件里写好了 cout cin endl 等函数</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;    <span class="comment">// 为了防止名字冲突，将 cout cin endl 等写在 std 命名空间里面</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span>              <span class="comment">// 一个 C++ 项目可心包含多个函数，而程序从 main 函数开始运行</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);    <span class="comment">// 让程序结束前暂停 便于观察输出结果</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;           <span class="comment">// 程序在这里结束， 如果前面的代码中有循环或判断或恰当时刻需要提前结束,</span></span><br><span class="line">                        <span class="comment">// 可以前面再写一个，（可以写多个）</span></span><br><span class="line">                        <span class="comment">// 但结尾必须写一个</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
         <category>IT</category>
         <category>CPlusPlus</category>
@@ -48,6 +49,7 @@
       </categories>
       <tags>
         <tag>cpp</tag>
+        <tag>cpp小组内卷资料</tag>
       </tags>
   </entry>
   <entry>
@@ -290,6 +292,7 @@
       </categories>
       <tags>
         <tag>cpp</tag>
+        <tag>cpp小组内卷资料</tag>
       </tags>
   </entry>
   <entry>
@@ -860,6 +863,166 @@
         <tag>Manim</tag>
         <tag>数学</tag>
         <tag>椭圆</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++ | 作业 | 百钱买百鸡</title>
+    <url>/2023/Chicken/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>题目：公鸡一只5块，母鸡一只3块，小鸡<strong>三只1块</strong>，用100块买100只鸡，问有哪些买法</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h2><p>用枚举法，通过循环 <em>（循环语句）</em> ，然后逐个加1去试，如果某次满足题目要求 <em>（判断语句）</em> ，就输出当前的数值。</p>
+<p>循环语句可以写为</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> ( 鸡数量 &lt;= <span class="number">100</span>)</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">    鸡数量++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>判断是否符合题意：</p>
+<ol>
+<li>一共100只鸡： <code>公鸡+母鸡+小鸡 == 100</code></li>
+<li>一共花100块： <code>公鸡*5 + 母鸡*3 + 小鸡/3 == 100</code></li>
+<li>!!!很重要，因为整数除以三如果除不开，会舍去小数部分保留整数，这样会导致出现错误的答案，所以还应该保证小鸡数量能被3整除，即 <code>小鸡%3 == 0</code><div class="note info"><p>题目需要全部符合，所以以上三条之间用 <code>&amp;&amp;</code> 连接。</p>
+</div>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> ((cock * <span class="number">5</span> + hen * <span class="number">3</span> + chicken / <span class="number">3</span> == <span class="number">100</span>) &amp;&amp; (cock + hen + chicken == <span class="number">100</span>) &amp;&amp; chicken % <span class="number">3</span> == <span class="number">0</span>)</span><br><span class="line">&#123;</span><br><span class="line">    ......</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="代码解决"><a href="#代码解决" class="headerlink" title="代码解决"></a>代码解决</h2><div class="tabs" id="code"><ul class="nav-tabs"><li class="tab active"><a href="#code-1">方法一</a></li><li class="tab"><a href="#code-2">方法二</a></li></ul><div class="tab-content"><div class="tab-pane active" id="code-1"><p>循环嵌套三层，先是公鸡母鸡为0，小鸡从1试到100，每次判断是否符合题意，如果符合就输出数量。<br>然后公鸡是0，母鸡是1，小鸡再从1试到100，每次判断是否符合<br>母鸡类似的从1试到100，再让公鸡1试到100。<br>这样一共试了100 * 100 * 100次，当中符合题意的输出出来</p>
+<p>列表可表示为：</p>
+<table>
+<thead>
+<tr>
+<th>公鸡</th>
+<th>母鸡</th>
+<th>小鸡</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>…</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>100</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0-100</td>
+</tr>
+<tr>
+<td>0</td>
+<td>2</td>
+<td>0-100</td>
+</tr>
+<tr>
+<td>0</td>
+<td>…</td>
+<td>0-100</td>
+</tr>
+<tr>
+<td>0</td>
+<td>100</td>
+<td>0-100</td>
+</tr>
+<tr>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+</tr>
+</tbody></table>
+<p>代码:</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> cock = <span class="number">0</span>, hen = <span class="number">0</span>, chicken = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span> (cock &lt;= <span class="number">100</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span> (hen &lt;= <span class="number">100</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">while</span> (chicken &lt;= <span class="number">100</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">if</span> ((cock * <span class="number">5</span> + hen * <span class="number">3</span> + chicken / <span class="number">3</span> == <span class="number">100</span>) &amp;&amp; (cock + hen + chicken == <span class="number">100</span>) &amp;&amp; chicken % <span class="number">3</span> == <span class="number">0</span>)</span><br><span class="line">                &#123;</span><br><span class="line">                    cout &lt;&lt; <span class="string">&quot;公鸡: &quot;</span> &lt;&lt; cock &lt;&lt; endl &lt;&lt; <span class="string">&quot;母鸡: &quot;</span> &lt;&lt; hen &lt;&lt; endl &lt;&lt; <span class="string">&quot;小鸡: &quot;</span> &lt;&lt; chicken &lt;&lt; endl &lt;&lt; endl;</span><br><span class="line">                &#125;</span><br><span class="line">                chicken++;</span><br><span class="line">            &#125;</span><br><span class="line">            chicken = <span class="number">0</span>;</span><br><span class="line">            hen++;</span><br><span class="line">        &#125;</span><br><span class="line">        hen = <span class="number">0</span>;</span><br><span class="line">        cock++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>很明显这种方法有很多次尝试都是多余的（比如很多次枚举中鸡的数目总数大于了100），而且嵌套了三层的循环，可以简化，参考方法二</p></div><div class="tab-pane" id="code-2"><p>一开始令公鸡母鸡都是0，然后只用两层循环，先试母鸡，每次让 小鸡数量&#x3D;100-公鸡-母鸡 ，这样可以简化代码，减少不必要的错误尝试。</p>
+<p>列表可表示为：</p>
+<table>
+<thead>
+<tr>
+<th>公鸡</th>
+<th>母鸡</th>
+<th>小鸡</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>100</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>99</td>
+</tr>
+<tr>
+<td>0</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr>
+<td>0</td>
+<td>100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>99</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>98</td>
+</tr>
+<tr>
+<td>1</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr>
+<td>1</td>
+<td>99</td>
+<td>0</td>
+</tr>
+<tr>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr>
+<td>100</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<p>代码：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> cock = <span class="number">0</span>, hen = <span class="number">0</span>, chicken = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span> (cock &lt;= <span class="number">100</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span> (hen &lt;= <span class="number">100</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            chicken = <span class="number">100</span> - cock - hen;</span><br><span class="line">            <span class="keyword">if</span> ((cock * <span class="number">5</span> + hen * <span class="number">3</span> + chicken / <span class="number">3</span> == <span class="number">100</span>) &amp;&amp; (cock + hen + chicken == <span class="number">100</span>) &amp;&amp; chicken % <span class="number">3</span> == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                cout &lt;&lt; <span class="string">&quot;公鸡: &quot;</span> &lt;&lt; cock &lt;&lt; endl &lt;&lt; <span class="string">&quot;母鸡: &quot;</span> &lt;&lt; hen &lt;&lt; endl &lt;&lt; <span class="string">&quot;小鸡: &quot;</span> &lt;&lt; chicken &lt;&lt; endl &lt;&lt; endl;</span><br><span class="line">            &#125;</span><br><span class="line">            hen++;</span><br><span class="line">        &#125;</span><br><span class="line">        hen = <span class="number">0</span>;</span><br><span class="line">        cock++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></div></div>
+
+
+]]></content>
+      <categories>
+        <category>IT</category>
+        <category>CPlusPlus</category>
+        <category>作业</category>
+      </categories>
+      <tags>
+        <tag>cpp</tag>
+        <tag>cpp小组内卷资料</tag>
       </tags>
   </entry>
 </search>
