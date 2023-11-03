@@ -1031,4 +1031,27 @@
         <tag>椭圆</tag>
       </tags>
   </entry>
+  <entry>
+    <title>C++ | 作业 | 啥排序来着</title>
+    <url>/2023/Order/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>事实上有很多种排序方法，今天讲的是哪种忘了，代码见下方</p>
+</blockquote>
+<span id="more"></span>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">// 假设这个是要排列的数组</span></span><br><span class="line">    <span class="type">int</span> a[<span class="number">5</span>] = &#123; <span class="number">17</span>, <span class="number">83</span>, <span class="number">49</span>, <span class="number">11</span>, <span class="number">26</span> &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> i, j, swap;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 第一个数</span></span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; <span class="number">5</span>; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// 第二个数</span></span><br><span class="line">        <span class="keyword">for</span> (j = i + <span class="number">1</span>; j &lt; <span class="number">5</span>; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// 比较这两个数 如果第二个数小于第一个数</span></span><br><span class="line">            <span class="keyword">if</span> (a[j] &lt; a[i])</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="comment">// 交换这两个数</span></span><br><span class="line">                swap = a[j];</span><br><span class="line">                a[j] = a[i];</span><br><span class="line">                a[i] = swap;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 输出结果</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> k = <span class="number">0</span>; k &lt; <span class="number">5</span>; k++)</span><br><span class="line">        cout &lt;&lt; a[k] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>程序运行结果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">11 17 26 49 83 请按任意键继续. . .</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>IT</category>
+        <category>CPlusPlus</category>
+        <category>作业</category>
+      </categories>
+      <tags>
+        <tag>cpp</tag>
+        <tag>cpp小组内卷资料</tag>
+      </tags>
+  </entry>
 </search>
