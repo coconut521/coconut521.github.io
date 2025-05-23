@@ -10,10 +10,14 @@ export const enNavbar = defineNavbarConfig([
   { text: 'Home', link: '/' },
   { text: 'Blog', link: '/blog/' },
   { text: 'Tags', link: '/blog/tags/' },
+  { text: 'Categories', link: '/blog/categories/' },
   { text: 'Archives', link: '/blog/archives/' },
   {
     text: 'Notes',
-    items: [{ text: 'Demo', link: '/notes/demo/README.md' }]
+    items: [{ text: 'C++', link: '/notes/cpp/README.md' },
+      { text: 'Archlinux', link: '/notes/arch/README.md' },
+      { text: 'Q#', link: '/notes/qsharp/README.md' }
+    ],
   },
 ])
 
