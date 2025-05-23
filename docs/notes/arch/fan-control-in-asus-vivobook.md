@@ -67,6 +67,7 @@ Server = https://arch.asus-linux.org
 # https://arch.asus-linux.org # Germany, origin
 # https://naru.jhyub.dev/$repo # Republic of Korea
 ```
+:::
 
 ```sh
 pacman -Syu
@@ -84,5 +85,5 @@ pacman -Sy linux-g14 linux-g14-headers
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-:::
+
 ::::
