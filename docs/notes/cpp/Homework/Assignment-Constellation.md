@@ -50,12 +50,18 @@ int main()
 一种麻烦但看起来很复杂的解法
 面向对象式编程解法
 
+
+::: code-tabs
+@tab stdafx.h
+
 ```C++
 // stdafx.h : 预编译头
 #pragma once
 #include <iostream>
 #include <cstring>
 ```
+
+@tab Date.h
 
 ```C++
 // Date.h Date类成员声明
@@ -80,6 +86,8 @@ public:
 
 #endif
 ```
+
+@tab Date.cpp
 
 ```C++
 //Date.cpp 用于实现Date类中的构造函数与查找功能
@@ -130,6 +138,8 @@ int Date::FindConsellation()
 }
 
 ```
+
+@tab Constellation.cpp
 
 ```c++
 // Constellation.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
@@ -185,3 +195,6 @@ int main()
 }
 
 ```
+
+
+:::

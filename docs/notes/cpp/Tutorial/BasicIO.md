@@ -30,6 +30,7 @@ permalink: /cpp/tun72xn1/
 > 注意此方法不完全符合目前习惯，因为没有写 `using namespace std;` 
 > 所以应该将 `using namespace std;` 添加到 `#include <iostream>` **下方**
 
+:::
 
 ---
 
