@@ -11,11 +11,11 @@ tags:
 
 在 `WinRAR` 软件中添加新压缩包，右侧压缩选项勾选 `添加恢复记录` ，如图：
 <ImageCard
-  image="/src/rarRecovery/01.png"
+  image="/public/rarRecovery/01.png"
 />
 
 
 点击上方 `高级` ，还可以选择恢复记录大小，如图：
 <ImageCard
-  image="/src/rarRecovery/02.png"
+  image="/public/rarRecovery/02.png"
 />

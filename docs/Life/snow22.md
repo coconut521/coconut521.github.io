@@ -12,7 +12,7 @@ tags:
 > 空中的雪，脚下是路，再抬眼时，雪已飘落地面。
 
 <video controls>
-  <source src="https://cabbage521.files.wordpress.com/2022/02/movie0.mp4" type="video/mp4">
+  <source public="https://cabbage521.files.wordpress.com/2022/02/movie0.mp4" type="video/mp4">
 </video>
 
 多原图预警~
@@ -23,11 +23,11 @@ tags:
 
 <CardMasonry>
 
-<ImageCard image="/src/snow22/00.jpg" />
-<ImageCard image="/src/snow22/01.jpg" />
-<ImageCard image="/src/snow22/02.jpg" />
-<ImageCard image="/src/snow22/03.jpg" />
-<ImageCard image="/src/snow22/04.jpg" />
+<ImageCard image="/public/snow22/00.jpg" />
+<ImageCard image="/public/snow22/01.jpg" />
+<ImageCard image="/public/snow22/02.jpg" />
+<ImageCard image="/public/snow22/03.jpg" />
+<ImageCard image="/public/snow22/04.jpg" />
 
 </CardMasonry>
 
@@ -39,9 +39,9 @@ tags:
 
 <CardMasonry>
 
-<ImageCard image="/src/snow22/07.jpg" />
-<ImageCard image="/src/snow22/08.jpg" />
-<ImageCard image="/src/snow22/12.jpg" />
+<ImageCard image="/public/snow22/07.jpg" />
+<ImageCard image="/public/snow22/08.jpg" />
+<ImageCard image="/public/snow22/12.jpg" />
 
 </CardMasonry>
 
@@ -51,9 +51,9 @@ tags:
 
 <CardMasonry>
 
-<ImageCard image="/src/snow22/14.jpg" />
-<ImageCard image="/src/snow22/13.jpg" />
-<ImageCard image="/src/snow22/15.jpg" />
+<ImageCard image="/public/snow22/14.jpg" />
+<ImageCard image="/public/snow22/13.jpg" />
+<ImageCard image="/public/snow22/15.jpg" />
 
 </CardMasonry>
 
@@ -63,8 +63,8 @@ tags:
 
 <CardMasonry>
 
-<ImageCard image="/src/snow22/05.jpg" />
-<ImageCard image="/src/snow22/06.jpg" />
+<ImageCard image="/public/snow22/05.jpg" />
+<ImageCard image="/public/snow22/06.jpg" />
 
 </CardMasonry>
 
@@ -75,16 +75,16 @@ tags:
 
 <CardMasonry>
 
-<ImageCard image="/src/snow22/09.jpg" />
-<ImageCard image="/src/snow22/10.jpg" />
-<ImageCard image="/src/snow22/11.jpg" />
+<ImageCard image="/public/snow22/09.jpg" />
+<ImageCard image="/public/snow22/10.jpg" />
+<ImageCard image="/public/snow22/11.jpg" />
 
 </CardMasonry>
 
 路灯与每一片雪，都是那么缘深情长。短暂的相遇之后，后者落地，前者挺拔。雪花还在仰望路灯的光，路灯也在不恼不厌的温柔着每一片雪花。
 
 <video controls>
-  <source src="https://cabbage521.files.wordpress.com/2022/02/movie0-1.mp4" type="video/mp4">
+  <source public="https://cabbage521.files.wordpress.com/2022/02/movie0-1.mp4" type="video/mp4">
 </video>
 
 而路灯呢，会在太阳出来时熄灭，雪花呢，会在太阳出来后消融。**他们有着与生俱来的默契，也有着同样圣洁的归宿。**

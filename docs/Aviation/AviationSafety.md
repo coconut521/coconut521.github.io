@@ -35,12 +35,12 @@ tags:
 18年前，香港的一架飞机从雷达上消失了。如果有幸看到雷达屏幕的话，在CI611消失的同时，屏幕上的一个点分成了四个点，几秒后，它或者称之为“它们”彻底的从雷达上消失不见了。  
 
 <ImageCard
-  image="/src/AviationSafety/IMG_7953.jpg"
+  image="/public/AviationSafety/IMG_7953.jpg"
   title="雷达图1"
 />
 
 <ImageCard
-  image="/src/AviationSafety/IMG_7956.jpg"
+  image="/public/AviationSafety/IMG_7956.jpg"
   title="雷达图2"
 />
 

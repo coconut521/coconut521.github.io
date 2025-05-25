@@ -10,7 +10,7 @@ tags:
 > plog 与云一起 在天空~
 
 <!--more-->
-<ImageCard image="/src/withCloud/IMG_1936.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1936.jpeg" />
 
 ::: tabs
 
@@ -18,13 +18,13 @@ tags:
 
 <CardMasonry>
 
-<ImageCard image="/src/withCloud/IMG_1928.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1935.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1937.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1941.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1926.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1943.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1934.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1928.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1935.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1937.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1941.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1926.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1943.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1934.jpeg" />
 
 </CardMasonry>
 
@@ -32,12 +32,12 @@ tags:
 
 <CardMasonry>
 
-<ImageCard image="/src/withCloud/IMG_1949.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1960.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1963.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1957.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1978.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1980.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1949.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1960.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1963.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1957.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1978.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1980.jpeg" />
 
 </CardMasonry>
 
@@ -45,10 +45,10 @@ tags:
 
 <CardMasonry>
 
-<ImageCard image="/src/withCloud/IMG_1944.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1962.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1964.jpeg" />
-<ImageCard image="/src/withCloud/IMG_1973.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1944.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1962.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1964.jpeg" />
+<ImageCard image="/public/withCloud/IMG_1973.jpeg" />
 
 </CardMasonry>
 
