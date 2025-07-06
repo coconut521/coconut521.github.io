@@ -42,7 +42,9 @@ vs. 美人梅：叶偏窄，花小粉白为紫叶李，反之为美人梅
 
 ### 伏枝委陵菜 (委陵菜，Potentilla chinensis)
 
-蔷薇科委陵菜属
+蔷薇科委陵菜属，匍匐茎，一边长一边生根，易扩大种群。
+
+vs. 蛇莓，蛇莓的副花萼更大
 
 <ImageCard image="/public/Field Practice/Potentilla chinensis.jpg" />
 
@@ -88,13 +90,15 @@ vs. 美人梅：叶偏窄，花小粉白为紫叶李，反之为美人梅
 
 ### 萝藦 Metaplexis japonica
 
-夹竹桃科鹅绒藤属
+夹竹桃科鹅绒藤属，萝藦科有白色乳汁
 
 <ImageCard image="/public/Field Practice/Metaplexis japonica.jpg" />
 
 ### 香椿 Toona sinensis
 
-楝科香椿属
+楝科香椿属，树皮裂，以偶数羽状复叶为主，结蒴果
+
+臭椿为翅果
 
 <ImageCard image="/public/Field Practice/Toona sinensis.jpg" />
 
@@ -108,7 +112,9 @@ vs. 美人梅：叶偏窄，花小粉白为紫叶李，反之为美人梅
 
 ### 玉蜀黍 Zea mays （玉米）
 
-禾本科玉蜀黍属
+禾本科玉蜀黍属。
+
+禾本科：茎上有节，叶由开放叶鞘和叶片构成，叶鞘与叶片间有叶耳和叶舌（小薄膜）。e.g.狗尾草
 
 <ImageCard image="/public/Field Practice/Zea mays.jpg" />
 
